@@ -1,0 +1,60 @@
+.testSubject {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: #f5f5f5; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #6a097d, #f1d4d4);
+  color: #fff;
+}
+.testSubject h1 {
+  font-size: 48px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.testSubject p {
+  font-size: 32px;
+}
+.testSubject .testSubjectImage img {
+  height: 100%;
+  padding: 10px;
+}
+.testSubject .testSubjectImage img {
+  width: 200px;
+  /* height: 200px; */
+  object-fit: contain;
+}
+@media (max-width: 750px) {
+  .testSubject {
+    color: #000;
+
+    border: 1px solid #000;
+  }
+  .testSubject h1 {
+    color: #fff;
+  }
+  .testSubject .testSubjectImage img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .testSubject h1 {
+    font-size: 32px;
+  }
+  .testSubject p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .testSubject h1 {
+    font-size: 32px;
+  }
+  .testSubject p {
+    font-size: 20px;
+  }
+}
