@@ -10,6 +10,13 @@
   border-radius: 20px;
   background: linear-gradient(to right, #6a097d, #f1d4d4);
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.testSubject:hover {
+  /* background: linear-gradient(to right, #f1d4d4, #6a097d); */
+  /* color: #000; */
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .testSubject h1 {
   font-size: 48px;

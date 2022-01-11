@@ -24,10 +24,12 @@
   cursor: pointer;
   color: #fff;
   background: transparent;
+  transition: all 0.3s ease-in-out;
   font-weight: 800;
 }
 .channels__createChannel:hover {
   background: #fff;
+
   color: #6a097d;
 
   transform: scale(1.1, 1.1);
