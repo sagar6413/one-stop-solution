@@ -1,42 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import SearchIcon from "@mui/icons-material/Search";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
+import { SidebarData } from "./SidebarData";
 
 function Navbar() {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => {
+    setSidebar(!sidebar);
+  };
+
   return (
-    <div className="navbar">
-      <Link className="navbar__link" to="/">
-        <div className="navbar__brand">One Stop Solution</div>
-      </Link>
-      <div className="navbar__items">
-        <ul className="navbar__itemsList">
-          <Link className="navbar__link" to="/">
-            <li className="navbar__itemsListMenu">Home</li>
-          </Link>
-          <Link className="navbar__link" to="/channels">
-            <li className="navbar__itemsListMenu">Channels</li>
-          </Link>
-          <Link className="navbar__link" to="/tests">
-            <li className="navbar__itemsListMenu">Tests</li>
-          </Link>
-          <Link className="navbar__link" to="/meet">
-            <li className="navbar__itemsListMenu">Meet</li>
-          </Link>
-          <Link className="navbar__link" to="/about">
-            <li className="navbar__itemsListMenu">About</li>
-          </Link>
+    <>
+      {/* Navbar- Horizontal One on top */}
+      <div className="navbar">
+        <div className="hamburger">
+          <MenuIcon className="hamburger__icon" onClick={showSidebar} />
+        </div>
+        <Link className="navbar__link" to="/">
+          <div className="navbar__brand">One Stop Solution</div>
+        </Link>
+      </div>
+
+      {/* Sidebar- Verticle on Side */}
+      <div className={sidebar ? "sidebar active" : "sidebar"}>
+        <ul className="sidebar__items" onClick={showSidebar}>
+          <li className="sidebar__toggle">
+            <CloseIcon className="sidebar__closeIcon" onClick={showSidebar} />
+          </li>
+          {SidebarData.map((item, index) => {
+            return (
+              <li key={index} className={item.cName}>
+                <Link to={item.path}>
+                  {item.icon}
+                  <span>{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
-      <div className="navbar__searchBox">
-        <input
-          className="navbar__searchBoxInput"
-          type="text"
-          placeholder="Search"
-        />
-        <SearchIcon className="navbar__searchBoxIcon" />
-      </div>
-    </div>
+    </>
   );
 }
 
