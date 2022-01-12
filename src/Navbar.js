@@ -15,12 +15,18 @@ function Navbar() {
   return (
     <>
       {/* Navbar- Horizontal One on top */}
-      <div className="navbar">
+      <div className={sidebar ? "navbar navbar__Active" : "navbar"}>
         <div className="hamburger">
           <MenuIcon className="hamburger__icon" onClick={showSidebar} />
         </div>
         <Link className="navbar__link" to="/">
-          <div className="navbar__brand">One Stop Solution</div>
+          <div
+            className={
+              sidebar ? "navbar__brand navbar__brandActive" : "navbar__brand"
+            }
+          >
+            One Stop Solution
+          </div>
         </Link>
       </div>
 

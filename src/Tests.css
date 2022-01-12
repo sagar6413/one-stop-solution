@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
 }
 .test__items {
-  margin: 10px;
+  margin: 20px 10px;
 }
 
 .test__createTest {
