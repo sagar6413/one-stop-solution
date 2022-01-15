@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("https://source.unsplash.com/random/1600x600");
+    url("./img/Main-Body/studing.jpeg");
   object-fit: fill;
   background-size: cover;
   background-position: center;

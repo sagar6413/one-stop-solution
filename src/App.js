@@ -7,27 +7,34 @@ import Channels from "./Channels";
 import Tests from "./Tests";
 import Meet from "./Meet";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import MeetingRoom from "./MeetingRoom";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <Switch>
           <Route path="/channels">
+            <Navbar />
             <Channels />
           </Route>
           <Route path="/tests">
+            <Navbar />
             <Tests />
           </Route>
-
+          <Route path="/meeting-room">
+            <MeetingRoom />
+          </Route>
           <Route path="/meet">
+            <Navbar />
             <Meet />
           </Route>
           <Route path="/about">
+            <Navbar />
             <About />
           </Route>
           <Route path="/">
+            <Navbar />
             <Body />
           </Route>
         </Switch>

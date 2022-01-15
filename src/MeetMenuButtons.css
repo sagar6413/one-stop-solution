@@ -1,0 +1,68 @@
+.menubuttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  /* border-bottom: 3px solid #1f1f1f; */
+  border-bottom: 3px solid #fff;
+  padding: 0 10px 30px 10px;
+}
+.menubuttons__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0470dc;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.menubuttons__button.color__orange {
+  background-color: #ff751f;
+}
+.fa {
+  font-size: 48px;
+  color: #efefef;
+}
+.menubuttons__button span {
+  font-size: 16px;
+  color: #efefef;
+  font-weight: bold;
+}
+.path {
+  text-decoration: none;
+}
+@media (max-width: 700px) {
+  .fa {
+    font-size: 40px;
+  }
+  .menubuttons__button span {
+    font-size: 12px;
+  }
+}
+@media (max-width: 550px) {
+  .menubuttons__button {
+    padding: 10px;
+  }
+  .fa {
+    font-size: 34px;
+  }
+  .menubuttons__button span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menubuttons__button {
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  .menubuttons__button span {
+    display: none;
+  }
+  .fa {
+    font-size: 40px;
+  }
+  .menubuttons__button span {
+    font-size: 12px;
+  }
+}

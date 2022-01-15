@@ -1,0 +1,33 @@
+.meetingRoom__nav {
+  display: flex;
+  background-color: #1c1c1c;
+  color: #efefef;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meetingRoom_navHome {
+  display: flex;
+  align-items: center;
+
+  align-items: center;
+  padding: 10px;
+}
+.meetingRoom_navHome_icon {
+  font-size: 32px;
+  color: #efefef;
+}
+.meetingRoom_navHome span h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #efefef;
+}
+.meetingRoom_title {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.path {
+  text-decoration: none;
+}
