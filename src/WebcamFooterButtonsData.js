@@ -1,7 +1,7 @@
+import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons";
 import {
   faMicrophoneSlash,
   faPhoneSlash,
-  faUpload,
   faUsers,
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
@@ -29,7 +29,7 @@ export const WebcamFooterButtonsData = [
   },
   {
     id: 5,
-    icon: faUpload,
-    text: "Upload File",
+    icon: faFacebookMessenger,
+    text: "Chat",
   },
 ];

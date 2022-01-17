@@ -8,6 +8,7 @@ import Tests from "./Tests";
 import Meet from "./Meet";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MeetingRoom from "./MeetingRoom";
+import MainFooter from "./MainFooter";
 
 function App() {
   return (
@@ -17,10 +18,12 @@ function App() {
           <Route path="/channels">
             <Navbar />
             <Channels />
+            {/* <MainFooter /> */}
           </Route>
           <Route path="/tests">
             <Navbar />
             <Tests />
+            {/* <MainFooter /> */}
           </Route>
           <Route path="/meeting-room">
             <MeetingRoom />
@@ -28,14 +31,17 @@ function App() {
           <Route path="/meet">
             <Navbar />
             <Meet />
+            <MainFooter />
           </Route>
           <Route path="/about">
             <Navbar />
             <About />
+            <MainFooter />
           </Route>
           <Route path="/">
             <Navbar />
             <Body />
+            <MainFooter />
           </Route>
         </Switch>
       </div>

@@ -1,0 +1,118 @@
+.CreateNewTest {
+  width: 100%;
+  height: 100%;
+  background: #6a097d;
+  padding: 10px;
+  overflow: auto;
+}
+.CreateNewTest__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #6a097d;
+  padding: 10px 0;
+  /* margin: 0 -5px; */
+}
+.CreateNewTest__title p {
+  color: #f1d4d4;
+  font-size: 32px;
+  font-weight: bold;
+}
+.CreateNewTest__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 10px; */
+  padding: 10px;
+}
+.react-datepicker__input-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.CreateNewTest__form input {
+  width: 80%;
+  /* height: 20px; */
+  border: none;
+  border-bottom: 3px solid #f1d4d4;
+  /* border-radius: 25px; */
+  font-size: 22px;
+  padding: 10px;
+  /* margin: 10px; */
+  color: #f1d4d4;
+  background: transparent;
+  /* transition: all 0.3s ease-in-out; */
+  /* font-weight: 800; */
+
+  letter-spacing: 1px;
+}
+.CreateNewTest__form input:focus {
+  outline: none;
+}
+.CreateNewTest__date {
+  padding-bottom: 5px !important;
+
+  width: 100%;
+  /* margin-left: -10px; */
+}
+
+.CreateNewTest__button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 10px; */
+}
+.CreateNewTest__button button {
+  width: 30%;
+  margin-top: 10px;
+  /* height: 50px; */
+  border: 3px solid #f1d4d4;
+  box-shadow: 0px 0px 5px #f1d4d4;
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-size: 25px;
+  /* font-weight: 800; */
+  cursor: pointer;
+  color: #f1d4d4;
+  background: transparent;
+  /* transition: all 0.3s ease-in-out; */
+}
+.CreateNewTest__button button:hover {
+  background: #f1d4d4;
+  color: #6a097d;
+  transform: scale(1.1, 1.1);
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .CreateNewTest__title p {
+    font-size: 28px;
+  }
+
+  .CreateNewTest__button button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 510px) {
+  .CreateNewTest__title p {
+    font-size: 24px;
+  }
+
+  .CreateNewTest__button button {
+    font-size: 16px;
+  }
+  .CreateNewTest__form input {
+    font-size: 18px;
+  }
+}
+@media (max-width: 440px) {
+  .CreateNewTest__title p {
+    font-size: 28px;
+  }
+
+  .CreateNewTest__button button {
+    font-size: 12px;
+  }
+}

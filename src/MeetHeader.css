@@ -1,0 +1,26 @@
+.meetheader {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 15px; */
+  /* border: 1px solid #ccc; */
+  align-items: center;
+  background-color: #1c1c1c;
+  /* margin-top: 80px; */
+}
+.meetheader__Icon {
+  color: #efefef;
+  font-size: 48px !important;
+}
+.meetheader h1 {
+  color: #efefef;
+  font-size: 39px;
+  font-weight: 700;
+}
+@media (max-width: 500px) {
+  .meetheader__Icon {
+    font-size: 40px !important;
+  }
+  .meetheader h1 {
+    font-size: 32px;
+  }
+}

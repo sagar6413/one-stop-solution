@@ -6,6 +6,7 @@
   flex-direction: column;
   height: 100%;
   background-repeat: no-repeat;
+  margin-top: 40px;
 }
 .test__items {
   margin: 20px 10px;
@@ -34,16 +35,39 @@
 
   transform: scale(1.1, 1.1);
 }
+
+.tests__createTestModal {
+  /* width: 50%; */
+  /* height: 50%; */
+  overflow: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1d4d4;
+  background-color: #111;
+  padding: 5px;
+}
+
 @media (max-width: 700px) {
   .test__createTest {
     font-size: 25px;
   }
 }
+
 @media (max-width: 600px) {
   .test__createTest {
     font-size: 20px;
   }
 }
+
 @media (max-width: 420px) {
   .test__createTest {
     font-size: 20px;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -7,7 +7,27 @@ import { SidebarData } from "./SidebarData";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
+  const closeSidebar = () => {
+    if (sidebar) {
+      setSidebar(!sidebar);
+    }
+  };
+
+  let sidebarRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!sidebarRef.current.contains(e.target)) {
+        closeSidebar();
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
   const showSidebar = () => {
     setSidebar(!sidebar);
   };
@@ -31,7 +51,7 @@ function Navbar() {
       </div>
 
       {/* Sidebar- Verticle on Side */}
-      <div className={sidebar ? "sidebar active" : "sidebar"}>
+      <div ref={sidebarRef} className={sidebar ? "sidebar active" : "sidebar"}>
         <ul className="sidebar__items" onClick={showSidebar}>
           <li className="sidebar__toggle">
             <CloseIcon className="sidebar__closeIcon" onClick={showSidebar} />

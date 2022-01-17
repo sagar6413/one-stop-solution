@@ -10,7 +10,7 @@ function MeetingRoom() {
   const [roomId, setRoomId] = useState();
   const [startCamera, setStartCamera] = useState(false);
   const __startCamera = () => {
-    setStartCamera(true);
+    setStartCamera(!startCamera);
   };
   const joinRoom = () => {
     __startCamera();
@@ -21,7 +21,7 @@ function MeetingRoom() {
       <MeetingRoomHeader />
 
       {startCamera ? (
-        <MeetingRoomActive />
+        <MeetingRoomActive joinRoom={joinRoom} />
       ) : (
         <MeetingRoomNotActive
           name={name}

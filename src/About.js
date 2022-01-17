@@ -3,8 +3,10 @@ import "./About.css";
 
 function About() {
   return (
-    <div>
-      <h1>Hiii!! I am About</h1>
+    <div className="about">
+      <h1 className="Headingg">Mobile</h1>
+
+      <h1 className="Headingg">Desktop</h1>
     </div>
   );
 }
