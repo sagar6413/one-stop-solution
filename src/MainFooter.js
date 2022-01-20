@@ -13,10 +13,34 @@ function MainFooter() {
         <h1>Sagar Shrivastav</h1>
       </div>
       <div className="MainFooter__socialMedias">
-        <LinkedInIcon className="MainFooter__icons" />
-        <FacebookIcon className="MainFooter__icons" />
-        <InstagramIcon className="MainFooter__icons" />
-        <TwitterIcon className="MainFooter__icons" />
+        <a
+          href="https://www.linkedin.com/in/linktosagar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedInIcon className="MainFooter__icons" />
+        </a>
+        <a
+          href="https://www.facebook.com/sagar6413/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FacebookIcon className="MainFooter__icons" />
+        </a>
+        <a
+          href="https://www.instagram.com/insta4sagar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <InstagramIcon className="MainFooter__icons" />
+        </a>
+        <a
+          href="https://twitter.com/tweetofsagar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TwitterIcon className="MainFooter__icons" />
+        </a>
       </div>
     </div>
   );

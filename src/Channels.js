@@ -7,6 +7,25 @@ import CreateNewChannel from "./CreateNewChannel";
 
 function Channels() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const [tempChannelData, setChannelData] = useState({
+    subject_name: "",
+    teacher_name: "",
+    semester: "",
+  });
+  const handleNewChannelSubmit = () => {
+    ChannelData.push(tempChannelData);
+    // console.log();
+    setModalIsOpen(!modalIsOpen);
+  };
+  const onChange = (event) => {
+    // preventDefault(event);
+    setChannelData({
+      ...tempChannelData,
+      [event.target.name]: event.target.value,
+    });
+  };
+
   return (
     <div className="channels">
       <div className="channels__items">
@@ -24,14 +43,20 @@ function Channels() {
       <Modal
         className="channels__createChannelModal"
         isOpen={modalIsOpen}
+        ariaHideApp={false}
+        contentLabel="Selected Option"
         onRequestClose={() => {
           console.log("Modal closed");
           setModalIsOpen(!modalIsOpen);
         }}
       >
         <CreateNewChannel
+          handleNewChannelSubmit={handleNewChannelSubmit}
           modalIsOpen={modalIsOpen}
           setModalIsOpen={setModalIsOpen}
+          onChange={onChange}
+          tempChannelData={tempChannelData}
+          setChannelData={setChannelData}
         />
       </Modal>
       <div

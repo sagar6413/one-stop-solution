@@ -1,9 +1,130 @@
 .about {
-  height: 100vh;
-  width: 100vw;
-  background-color: red;
+  height: 100%;
+  /* width: 100vw; */
+  background-color: #f1d4d4;
+
+  /* padding-bottom: 150px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+
+  padding: 20px 0;
+  width: 90%;
+  margin: auto;
   margin-top: 50px;
 }
-.Headingg {
-  color: #000;
+.about__userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 10px solid green; */
+}
+.about__userImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 10px solid blue; */
+  padding: 20px;
+  /* flex-direction: column; */
+  background-color: #f1d4d4;
+}
+.about__userImage img {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px 0 0;
+  border-radius: 50%;
+  border: 5px solid #6a097d;
+}
+.about__userName {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 100%; */
+  /* background-color: #fff; */
+}
+.about__userName p {
+  font-size: 32px;
+  font-weight: bold;
+  color: #6a097d;
+  /* text-align: ; */
+}
+.about__userPerformance {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid white; */
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.about h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #6a097d;
+}
+
+.about__userPerformanceGraph {
+  width: 33vw;
+  height: 300px;
+  background-color: #c060a1;
+  margin: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .about__userName p {
+    font-size: 26px;
+  }
+}
+@media (max-width: 700px) {
+  .about {
+    width: 100%;
+  }
+  .about__userImage {
+    flex-direction: column;
+  }
+  .about__userImage img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .about__userName p {
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 32px;
+  }
+  .about__userPerformanceGraph {
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    width: 100%;
+  }
+  .about__userImage img {
+    width: 150px;
+    height: 150px;
+  }
+  .about__userName p {
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 26px;
+  }
+  .about__userPerformanceGraph {
+    height: 150px;
+  }
+  .about h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .about__userName p {
+    font-size: 20px;
+  }
 }

@@ -7,7 +7,7 @@
   align-items: center;
   padding: 10px 20px;
   position: relative;
-  /* bottom: 0; */
+  bottom: 0;
   /* margin-top: 500px; */
 }
 .MainFooter__developedBy {
@@ -23,6 +23,10 @@
   align-items: center;
   flex: 0.5;
   padding: 0 10px;
+}
+.MainFooter__socialMedias a {
+  text-decoration: none;
+  color: #f1d4d4;
 }
 .MainFooter__icons {
   font-size: 48px !important;

@@ -39,7 +39,7 @@
 .tests__createTestModal {
   /* width: 50%; */
   /* height: 50%; */
-  overflow: auto;
+  /* overflow: auto; */
   margin: auto;
   display: flex;
   align-items: center;
