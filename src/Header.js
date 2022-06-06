@@ -10,10 +10,10 @@ function Header() {
       </div>
       <div className="header__button">
         <button type="button" class="btn btn-primary  btn-lg">
-          Something
+          Login
         </button>
         <button type="button" class="btn btn-primary  btn-lg">
-          Anything
+          Sign Up
         </button>
       </div>
     </div>

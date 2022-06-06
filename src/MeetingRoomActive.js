@@ -3,6 +3,7 @@ import "./MeetingRoomActive.css";
 import { WebcamFooterButtonsData } from "./WebcamFooterButtonsData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ChatBox from "./ChatBox";
+import Webcam from "react-webcam";
 
 function MeetingRoomActive({ joinRoom }) {
   const activeUsers = ["user1", "user2", "user3", "user4", "user5"];
@@ -11,6 +12,8 @@ function MeetingRoomActive({ joinRoom }) {
   return (
     <div className="camera">
       <div className="webcam__container">
+        <Webcam className="testing_webcamInActiveMeetingRoom" />
+
         {activeUsers.map((user, index) => {
           return (
             <div key={index} className="webcam__activeUserContainer">

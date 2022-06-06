@@ -16,6 +16,11 @@
   flex-wrap: wrap;
   /* overflow: scroll; */
 }
+.testing_webcamInActiveMeetingRoom {
+  width: 40vw;
+  height: 40vh;
+  object-fit: contain;
+}
 
 .webcam__activeUserContainer {
   border: 1px solid #fff;
@@ -98,8 +103,8 @@
 }
 @media (max-width: 550px) {
   .webcam__activeUserContainer {
-    width: 60vw;
-    /* height: 100vh; */
+    width: 100vw;
+    height: 50vh;
   }
   .webcam__footerButtons__icon {
     font-size: 32px !important;
@@ -107,11 +112,12 @@
   .webcam__footerButtons span {
     display: none;
   }
+  .testing_webcamInActiveMeetingRoom {
+    width: 100vw;
+    height: 50vh;
+  }
 }
 @media (max-width: 350px) {
-  .webcam__activeUserContainer {
-    width: 70vw;
-  }
   .webcam__footerButtons__icon {
     font-size: 26px !important;
   }
