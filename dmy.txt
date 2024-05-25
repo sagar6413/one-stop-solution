@@ -1,0 +1,38 @@
+User:
+AuthenticationResponse register(AuthenticationRequest authenticationRequest);
+AuthenticationResponse login(AuthenticationRequest authenticationRequest);
+void logout();
+UserResponse getUserById(Long id);
+UserResponse getUserByEmail(String email);
+UserResponse getUserByUsername(String username);
+UserResponse updateUser(UserRequest userRequest);
+String deleteUser();
+
+Post:
+PostResponse createPost(PostRequest postRequest);
+PostResponse updatePost(PostRequest postRequest, Long postId);
+PostResponse getPostById(Long postId);
+PostResponse getPostBySlug(String slug);
+Page<PostResponse> getAllPostByUserId(Long userId, Pageable pageable);
+Page<PostResponse> getAllPostByCategory(String category, Pageable pageable);
+String deletePost(Long postId);
+
+Reaction:
+ReactionResponse react(Long postId, Long commentId, String reactionType);
+ReactionResponse updateReaction(Long reactionId, String reactionType);
+List<ReactionResponse> getAllReactionsOnAPost(Long postId);
+List<ReactionResponse> getAllReactionsOnAComment(Long commentId);
+ReactionResponse getReactionById(Long reactionId);
+String unreact(Long reactionId);
+
+Comment:
+CommentResponse addComment(Long postId, CommentRequest commentRequest, Long parentCommentI
+CommentResponse editComment(Long commentId, CommentRequest commentReques
+List<CommentResponse> getAllCommentsOfPost(Long postI
+CommentResponse getCommentById(Long commentI
+List<CommentResponse> getAllRepliesToAComment(Long commentI
+String deleteComment(Long commentI
+String hideComment(Long commentId);
+
+AdminService:
+List<UserResponse> getAllUser();
