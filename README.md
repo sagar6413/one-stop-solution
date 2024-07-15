@@ -1,72 +1,265 @@
-#Link -> (https://bit.ly/1stopsolutiondemo)
+# Project: Travel Itinerary Social Media (Updated)
 
-# Getting Started with Create React App
+## Overview
+A comprehensive travel itinerary planner that allows users to create, share, and collaborate on travel plans. Users can also discover and interact with other travellers, share experiences, and recommend places. This platform will serve as both a travel planning tool and a social media for travellers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Basic Feature List
 
-## Available Scripts
+### Security
+- Sign up with email, password, and basic profile information.
+- Login with email-password and socials.
+- JWT-based authentication for secure API access.
+- Password recovery and reset functionality.
+- Data Encryption: Ensure end-to-end encryption for sensitive data, especially for messaging and document sharing.
 
-In the project directory, you can run:
+### Profile Management
+- View and edit profile information.
+- Add and manage past trips and travel experiences.
+- Set privacy settings for profile visibility.
 
-### `npm start`
+### Role-based Access Control
+- Different roles for users, admins, and moderators.
+- Admin panel for managing users, roles, and content.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Create and Manage Itineraries
+- Create new itineraries with a start date, end date, and trip title.
+- Add and organise destinations, activities, and accommodations.
+- Set and manage travel dates and times for each activity.
+- Categorize activities (sightseeing, dining, shopping, etc.).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Advanced Search and Filters
+- Advance Search: Implement a robust search functionality allowing users to search by destinations, activities, dates, and user profiles.
+- Filters: Allow users to filter search results by categories, ratings, price ranges, and more.
 
-### `npm test`
+### Collaboration
+- Invite friends or other users to collaborate on itineraries.
+- Real-time updates and notifications for itinerary changes.
+- Permission settings for collaborators (view, edit, comment).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Social Media Integration
+- Cross-Posting: Allow users to cross-post their travel stories and experiences to other social media platforms like Facebook, Instagram, and Twitter.
 
-### `npm run build`
+### Booking Integration
+- Integration with third-party APIs for booking flights, hotels, and activities.
+- Add booking confirmations and details to the itinerary.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Itinerary Templates
+- Save and reuse itinerary templates for future trips.
+- Share templates with other users.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Connections
+- Search and follow other travellers.
+- View followers and following lists.
+- See activity feeds of the following users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Sharing Experiences
+- Post travel stories, photos, and reviews.
+- Tag locations and itineraries in posts.
+- Like, comment, and share posts.
 
-### `npm run eject`
+### Messaging System
+- Direct messaging between users.
+- Group chats for trip planning and collaboration.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Place Recommendations
+- Personalised recommendations for places to visit based on user preferences and past trips.
+- Trending destinations and activities based on user ratings and reviews.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Reviews and Ratings
+- Write and read reviews for destinations, activities, and accommodations.
+- Rate places on a scale of 1 to 5 stars.
+- Filter and sort reviews by date, rating, and relevance.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Map Visualization
+- Visualise travel plans on an interactive map.
+- Mark and categorise destinations, activities, and accommodations.
+- View route maps for travel between destinations.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Pinned Recommendations
+- See recommended places pinned on the map.
+- View reviews and ratings for pinned places.
 
-## Learn More
+### Real-Time Chat
+- Real-time chat for collaboration on itineraries.
+- Group chat for trip planning with multiple users.
+- Message notifications and unread message indicators.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Notifications
+- Notifications for itinerary updates, social interactions, and booking confirmations.
+- Real-time push notifications for critical updates.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Photo and Document Sharing
+- Upload and share photos related to trips.
+- Organise photos by trip and itinerary.
+- Share travel documents (tickets, booking confirmations, etc.).
 
-### Code Splitting
+### File Management
+- View, download, and delete shared files.
+- Set privacy settings for shared files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### User Activity Reports
+- Generate reports on user activity, such as trips planned, places visited, and reviews written.
+- Visualise travel history and preferences.
 
-### Analyzing the Bundle Size
+### Gamification Elements
+- Badges and Achievement: Add badges, points, and levels for users based on their travel experiences and platform engagement.
+- Leaderboard: Implement a leaderboard to encourage competition and engagement among users.
+- Challenges: Create travel challenges and quests for users to complete during their trips.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Trip Analytics
+- Analyze trip data, such as expenses, travel duration, and activity types.
+- Generate summary reports for completed trips.
 
-### Making a Progressive Web App
+### Offline Access
+- Allow users to download itineraries for offline access.
+- Sync offline changes when the user is back online.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Third-Party Integrations
+- Integrate with social media platforms for sharing and login.
+- Integration with travel-related APIs (e.g., weather, currency exchange).
 
-### Advanced Configuration
+### Dynamic Pricing Alerts (New Feature)
+- Integrate with pricing APIs for flights, hotels, and activities.
+- Allow users to set price thresholds for items in their itineraries.
+- Implement a notification system (email, push notifications) to alert users when prices drop below their set thresholds.
+- Create a dashboard where users can manage their price alerts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Admin Features
 
-### Deployment
+### User Management
+- View and manage user accounts.
+- Assign and change user roles.
+- Handle user reports and disputes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Content Moderation
+- Review and moderate user posts, reviews, and comments.
+- Manage flagged content and handle content violations.
 
-### `npm run build` fails to minify
+### Analytics Dashboard
+- View platform usage statistics and user engagement metrics.
+- Monitor active users, new registrations, and user retention.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tech Stack
+
+### Frontend
+- ReactJS with TypeScript
+- React Redux: State management
+- React Router: For handling routing
+- Axios: For HTTP calls
+- Tailwind CSS
+- React Query: For efficient data fetching and caching
+- WebSockets: For real-time communication
+- Next.js: For server-side rendering and improved SEO
+- Storybook: For component development and testing
+
+### Backend
+- Java Spring Boot: Core backend to handle business logic, API endpoints, and primary data processing
+- NodeJs: For server-side scripting, handling real-time features (e.g., chat), and additional data processing
+- Socket.IO: For real-time communication
+- GraphQL with Apollo Server: For more efficient data querying
+- Apache Kafka: For event-driven architecture and real-time data streaming
+- Security: JWT-based authentication along with OAuth 2.0 and OpenID Connect for more robust authentication and authorization
+- Communication Protocols:
+  - Client-Server: GraphQL
+  - Inter-Service: gRPC
+
+### Database
+- PostgreSQL: Primary database for structured data
+- MongoDB: Secondary database for unstructured data such as chat messages and photos, etc.
+- Elasticsearch: For advanced search capabilities and improved performance
+
+### Caching
+- Redis: Caching to improve performance and manage sessions
+
+### DevOps
+- Docker: Containerization
+- Kubernetes: Orchestration
+- Prometheus & Grafana: For monitoring, alerting, and visualising system performance
+- Jenkins: For continuous integration and continuous deployment (CI/CD)
+- Terraform: For infrastructure as code
+- SonarQube: For code quality and security analysis
+- ELK stack (Elasticsearch, Logstash, Kibana): For centralized logging
+
+### Additional Services
+- AWS S3 or Google Cloud Storage: For storing user-generated content
+- CDN (e.g., Cloudflare or AWS CloudFront): For faster content delivery
+
+## Backend Design Planner
+
+### System Architecture Design
+- Create high-level system architecture diagram.
+```mermaid:
+
+graph TD
+subgraph "Client Layer"
+    A[Web App - React]
+    B[Mobile Web - PWA]
+end
+
+subgraph "API Gateway"
+    C[GraphQL API Gateway]
+end
+
+subgraph "Service Layer"
+    D[Spring Boot Services]
+    E[Node.js Services]
+end
+
+subgraph "Data Layer"
+    F[PostgreSQL]
+    G[MongoDB]
+    H[Elasticsearch]
+    I[Redis Cache]
+end
+
+subgraph "External Services"
+    J[Social Media APIs]
+    K[Booking APIs]
+    L[Weather API]
+    M[Currency Exchange API]
+end
+
+A --> C
+B --> C
+C --> D
+C --> E
+D <--> E
+D --> F
+D --> G
+D --> H
+D --> I
+E --> G
+E --> H
+E --> I
+D <--> J
+D <--> K
+D <--> L
+D <--> M
+E <--> J
+E <--> K
+
+```
+- Define service boundaries between Spring Boot and Node.js components..
+- Design database schema for PostgreSQL.
+- Design data models for MongoDB.
+- Plan Elasticsearch integration for search functionality.
+- Design caching strategy with Redis.
+- Plan scalability and performance optimizations.
+
+### API Design
+- Design GraphQL schema for client-server communication.
+- Define gRPC service definitions for inter-service communication.
+- Plan RESTful APIs for external integrations.
+
+### Security Architecture
+- Design authentication and authorization system.
+- Plan data encryption strategies.
+- Design secure communication protocols.
+
+## Frontend Design Planner
+
+### UI/UX Design
+- Create wireframes for key user interfaces.
+- Design responsive layouts for web and mobile.
+- Develop UI component library and style guide.
+
