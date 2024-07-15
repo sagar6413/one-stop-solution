@@ -188,7 +188,7 @@ A comprehensive travel itinerary planner that allows users to create, share, and
 
 ### System Architecture Design
 - Create high-level system architecture diagram.
-```mermaid:
+```mermaid
 
 graph TD
 subgraph "Client Layer"
