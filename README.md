@@ -1,245 +1,667 @@
 # **Travel Itinerary Social Media**
 
 ## **Overview**
-We're creating a comprehensive travel planning platform that combines the functionality of a travel itinerary planner with the engaging features of social media. Users will be able to create, share, and collaborate on travel plans, as well as discover and interact with other travelers, share experiences, and recommend places. Think of it as a one-stop-shop for all your travel planning and sharing needs!
-
+A comprehensive travel itinerary planner that allows users to create, share, and collaborate on travel plans. Users can also discover and interact with other travellers, share experiences, and recommend places. This platform will serve as both a travel planning tool and a social media for travellers.
+*
 ## **Basic Feature List**
 
 ### ***Security***
-We take user security seriously. Our platform will include:
-- Easy sign-up using email and password, with the option to create a basic profile.
-- Login options using email-password or social media accounts for convenience.
-- Advanced security measures to protect user data and ensure safe access to our services.
-- A straightforward process for password recovery and reset.
-- State-of-the-art encryption to protect sensitive information, especially in messaging and document sharing.
+- Sign up with email, password, and basic profile information.
+- Login with email-password and socials.
+- JWT-based authentication for secure API access.
+- Password recovery and reset functionality.
+- Data Encryption: Ensure end-to-end encryption for sensitive data, especially for messaging and document sharing.
 
 ### ***Profile Management***
-Users will have full control over their profiles:
-- View and edit personal information at any time.
-- Add and manage details about past trips and travel experiences.
-- Control who can see their profile through customizable privacy settings.
+- View and edit profile information.
+- Add and manage past trips and travel experiences.
+- Set privacy settings for profile visibility.
 
 ### ***Role-based Access Control***
-To maintain order and ensure smooth operation, we'll have different levels of access:
-- Regular users will have standard access to the platform's features.
-- Administrators will have additional capabilities to manage the platform.
-- Moderators will help maintain community standards.
+- Different roles for users, admins, and moderators.
+- Admin panel for managing users, roles, and content.
 
 ### ***Create and Manage Itineraries***
-The core of our platform is the ability to plan trips:
-- Create new travel plans by setting start and end dates, and giving your trip a title.
-- Add and organize the places you want to visit, things you want to do, and where you'll stay.
-- Set specific dates and times for each activity in your itinerary.
-- Categorize your activities (e.g., sightseeing, dining, shopping) for better organization.
+- Create new itineraries with a start date, end date, and trip title.
+- Add and organise destinations, activities, and accommodations.
+- Set and manage travel dates and times for each activity.
+- Categorize activities (sightseeing, dining, shopping, etc.).
 
 ### ***Advanced Search and Filters***
-Finding what you're looking for will be easy:
-- Use our powerful search function to look up destinations, activities, dates, and even other users.
-- Filter your search results by categories, ratings, price ranges, and more to find exactly what you need.
+- Advance Search: Implement a robust search functionality allowing users to search by destinations, activities, dates, and user profiles.
+- Filters: Allow users to filter search results by categories, ratings, price ranges, and more.
 
 ### ***Collaboration***
-Planning a trip with friends? We've got you covered:
-- Invite friends or other users to work together on your travel plans.
-- Get instant updates when changes are made to shared itineraries.
-- Set different levels of access for your collaborators (view, edit, or comment).
+- Invite friends or other users to collaborate on itineraries.
+- Real-time updates and notifications for itinerary changes.
+- Permission settings for collaborators (view, edit, comment).
 
 ### ***Social Media Integration***
-Share your adventures across platforms:
-- Easily share your travel stories and experiences on other social media sites like Facebook, Instagram, and Twitter.
+- Cross-Posting: Allow users to cross-post their travel stories and experiences to other social media platforms like Facebook, Instagram, and Twitter.
 
 ### ***Booking Integration***
-Make your plans a reality without leaving the platform:
-- Book flights, hotels, and activities directly through our partnerships with travel services.
-- Automatically add your booking details to your itinerary for easy reference.
+- Integration with third-party APIs for booking flights, hotels, and activities.
+- Add booking confirmations and details to the itinerary.
 
 ### ***Itinerary Templates***
-Save time on future trips:
-- Save your travel plans as templates to reuse for similar trips in the future.
-- Share your tried-and-tested itineraries with other users.
+- Save and reuse itinerary templates for future trips.
+- Share templates with other users.
 
 ### ***User Connections***
-Build your travel network:
-- Find and follow other travelers who share your interests.
-- Keep track of who you're following and who's following you.
-- Stay updated with an activity feed showing what your connections are up to.
+- Search and follow other travellers.
+- View followers and following lists.
+- See activity feeds of the following users.
 
 ### ***Sharing Experiences***
-Tell your travel stories:
-- Post about your journeys, including stories, photos, and reviews.
-- Tag the locations and itineraries featured in your posts.
-- Interact with others by liking, commenting on, and sharing their posts.
+- Post travel stories, photos, and reviews.
+- Tag locations and itineraries in posts.
+- Like, comment, and share posts.
 
 ### ***Messaging System***
-Stay in touch with your travel buddies:
-- Send direct messages to other users.
-- Create group chats for planning trips or sharing experiences with multiple people.
+- Direct messaging between users.
+- Group chats for trip planning and collaboration.
 
 ### ***Place Recommendations***
-Discover your next adventure:
-- Get personalized suggestions for places to visit based on your preferences and past trips.
-- See what destinations and activities are popular among other users.
+- Personalised recommendations for places to visit based on user preferences and past trips.
+- Trending destinations and activities based on user ratings and reviews.
 
 ### ***Reviews and Ratings***
-Make informed decisions:
-- Write and read reviews for places you've visited or are planning to visit.
-- Rate destinations on a scale of 1 to 5 stars.
-- Sort through reviews by date, rating, or relevance to find the most helpful information.
+- Write and read reviews for destinations, activities, and accommodations.
+- Rate places on a scale of 1 to 5 stars.
+- Filter and sort reviews by date, rating, and relevance.
 
 ### ***Map Visualization***
-See your plans come to life:
-- View your travel itinerary on an interactive map.
-- Easily identify and categorize your planned destinations and activities.
-- Get a visual representation of your travel routes between destinations.
+- Visualise travel plans on an interactive map.
+- Mark and categorise destinations, activities, and accommodations.
+- View route maps for travel between destinations.
 
 ### ***Pinned Recommendations***
-Explore with confidence:
-- Find recommended places highlighted on the map.
-- Check out reviews and ratings for these pinned locations.
+- See recommended places pinned on the map.
+- View reviews and ratings for pinned places.
 
 ### ***Real-Time Chat***
-Coordinate on the go:
-- Use real-time chat to discuss and adjust your travel plans with collaborators.
-- Create group chats for planning trips with multiple people.
-- Stay on top of your conversations with message notifications and unread message indicators.
+- Real-time chat for collaboration on itineraries.
+- Group chat for trip planning with multiple users.
+- Message notifications and unread message indicators.
 
 ### ***Notifications***
-Never miss an update:
-- Receive notifications about changes to your travel plans, social interactions, and booking confirmations.
-- Get instant push notifications for important updates, even when you're not actively using the app.
+- Notifications for itinerary updates, social interactions, and booking confirmations.
+- Real-time push notifications for critical updates.
 
 ### ***Photo and Document Sharing***
-Keep all your travel memories and important info in one place:
-- Upload and share photos from your trips.
-- Organize your photos by trip and itinerary for easy browsing.
-- Safely store and share important travel documents like tickets and booking confirmations.
+- Upload and share photos related to trips.
+- Organise photos by trip and itinerary.
+- Share travel documents (tickets, booking confirmations, etc.).
 
 ### ***File Management***
-Keep your travel docs organized:
-- Easily view, download, and remove shared files.
-- Control who can access your shared files with privacy settings.
+- View, download, and delete shared files.
+- Set privacy settings for shared files.
 
 ### ***User Activity Reports***
-Track your travels:
-- Generate reports summarizing your activity, such as trips planned, places visited, and reviews written.
-- Get a visual overview of your travel history and preferences.
+- Generate reports on user activity, such as trips planned, places visited, and reviews written.
+- Visualise travel history and preferences.
 
 ### ***Gamification Elements***
-Make travel planning fun:
-- Earn badges and points for your travel experiences and platform engagement.
-- Compete with other users on leaderboards.
-- Participate in travel challenges and quests during your trips.
+- Badges and Achievement: Add badges, points, and levels for users based on their travel experiences and platform engagement.
+- Leaderboard: Implement a leaderboard to encourage competition and engagement among users.
+- Challenges: Create travel challenges and quests for users to complete during their trips.
 
 ### ***Trip Analytics***
-Gain insights from your travels:
-- Analyze data from your trips, such as expenses, travel duration, and types of activities.
-- Get summary reports for completed trips to help plan future adventures.
+- Analyze trip data, such as expenses, travel duration, and activity types.
+- Generate summary reports for completed trips.
 
 ### ***Offline Access***
-Stay connected even without internet:
-- Download your itineraries for access without an internet connection.
-- Any changes made offline will update automatically when you're back online.
+- Allow users to download itineraries for offline access.
+- Sync offline changes when the user is back online.
 
 ### ***Third-Party Integrations***
-Enhance your experience with external services:
-- Connect with social media platforms for easy sharing and login.
-- Access travel-related information like weather forecasts and currency exchange rates.
+- Integrate with social media platforms for sharing and login.
+- Integration with travel-related APIs (e.g., weather, currency exchange).
 
 ### ***Dynamic Pricing Alerts (New Feature)***
-Never miss a deal:
-- We'll keep an eye on prices for flights, hotels, and activities in your itinerary.
-- Set your own price thresholds and get notified when prices drop below them.
-- Manage all your price alerts in one convenient dashboard.
+- Integrate with pricing APIs for flights, hotels,* and activities.
+- Allow users to set price thresholds for items in their itineraries.
+- Implement a notification system (email, push notifications) to alert users when prices drop below their set thresholds.
+- Create a dashboard where users can manage their price alerts.
 
 ## **Admin Features**
 
-While these features won't be visible to regular users, they're crucial for maintaining a smooth and safe user experience:
-
 ### ***User Management***
-Our admin team will be able to:
-- View and manage user accounts to ensure platform integrity.
-- Assign different roles to users as needed.
-- Handle user reports and resolve disputes.
+- View and manage user accounts.
+- Assign and change user roles.
+- Handle user reports and disputes.
 
 ### ***Content Moderation***
-To maintain a positive community:
 - Review and moderate user posts, reviews, and comments.
-- Handle any content that violates our community guidelines.
+- Manage flagged content and handle content violations.
 
 ### ***Analytics Dashboard***
-To continually improve our service:
-- Monitor how the platform is being used and track user engagement.
-- Keep an eye on active users, new sign-ups, and how well we're retaining users.
+- View platform usage statistics and user engagement metrics.
+- Monitor active users, new registrations, and user retention.
 
 ## **Tech Stack**
 
-For our tech-savvy readers, here's an overview of the technologies we'll be using to build this platform:
-
 ### ***Frontend***
-We're using modern web technologies to create a fast, responsive, and user-friendly interface:
-- ReactJS with TypeScript for building our user interface
-- Various tools for managing data, routing, and making our app efficient (React Redux, React Router, Axios, React Query)
-- Tailwind CSS for styling
-- Next.js for improved performance and search engine optimization
-- Storybook for developing and testing individual components
+- ReactJS with TypeScript
+- React Redux: State management
+- React Router: For handling routing
+- Axios: For HTTP calls
+- Tailwind CSS
+- React Query: For efficient data fetching and caching
+- WebSockets: For real-time communication
+- Next.js: For server-side rendering and improved SEO
+- Storybook: For component development and testing
 
 ### ***Backend***
-The "brain" of our platform will be built with:
-- Java Spring Boot for handling core business logic and data processing
-- NodeJS for real-time features and additional data processing
-- GraphQL and Apollo Server for efficient data querying
-- Apache Kafka for handling real-time data streams
-- Advanced security measures including JWT-based authentication, OAuth 2.0, and OpenID Connect
+- Java Spring Boot: Core backend to handle business logic, API endpoints, and primary data processing
+- NodeJs: For server-side scripting, handling real-time features (e.g., chat), and additional data processing
+- Socket.IO: For real-time communication
+- GraphQL with Apollo Server: For more efficient data querying
+- Apache Kafka: For event-driven architecture and real-time data streaming
+- Security: JWT-based authentication along with OAuth 2.0 and OpenID Connect for more robust authentication and authorization
+- Communication Protocols:
+  - Client-Server: GraphQL
+  - Inter-Service: gRPC
 
 ### ***Database***
-To store and manage all the data our platform will handle:
-- PostgreSQL as our primary database for structured data
-- MongoDB for storing unstructured data like chat messages and photos
-- Elasticsearch for advanced search capabilities
-
+- PostgreSQL: Primary database for structured data
+- MongoDB: Secondary database for unstructured data such as chat messages and photos, etc.
+- Elasticsearch: For advanced search capabilities and improved performance
+*
 ### ***Caching***
-To ensure our platform runs smoothly and quickly:
-- Redis for caching frequently accessed data and managing user sessions
+- Redis: Caching to improve performance and manage sessions
 
 ### ***DevOps***
-To keep our platform running reliably:
-- Docker and Kubernetes for managing our application infrastructure
-- Various tools for monitoring, testing, and deploying our application (Prometheus, Grafana, Jenkins, Terraform, SonarQube, ELK stack)
+- Docker: Containerization
+- Kubernetes: Orchestration
+- Prometheus & Grafana: For monitoring, alerting, and visualising system performance
+- Jenkins: For continuous integration and continuous deployment (CI/CD)
+- Terraform: For infrastructure as code
+- SonarQube: For code quality and security analysis
+- ELK stack (Elasticsearch, Logstash, Kibana): For centralized logging
 
 ### ***Additional Services***
-- Cloud storage solutions (AWS S3 or Google Cloud Storage) for user-generated content
-- Content Delivery Network (CDN) for faster content delivery worldwide
+- AWS S3 or Google Cloud Storage: For storing user-generated content
+- CDN (e.g., Cloudflare or AWS CloudFront): For faster content delivery
 
 ## **Backend Design Planner**
 
-This section outlines how we'll structure the "behind-the-scenes" part of our platform:
-
 ### ***System Architecture Design***
-We've created detailed diagrams showing how different parts of our system will interact. These diagrams help our development team understand how data will flow through the system and how different services will communicate with each other.
+- Create high-level system architecture diagram.
+```mermaid
+graph TD
+subgraph "Client Layer"
+    A[Web App - React]
+    B[Mobile Web - PWA]
+end
 
-### ***Database Design***
-We've carefully planned how we'll store different types of data:
-- In PostgreSQL, we'll store structured data like user profiles, trips, destinations, activities, reviews, and bookings.
-- In MongoDB, we'll store less structured data like messages, notifications, and social media posts.
+subgraph "API Gateway"
+    C[GraphQL API Gateway]
+end
 
-### ***Search Functionality***
-We're using Elasticsearch to provide powerful search capabilities:
-- Users will be able to search for destinations, activities, other users, and more.
-- The search will understand typos and provide relevant results even if the search terms aren't exact matches.
-- Results can be filtered by various criteria like date ranges, categories, and ratings.
+subgraph "Service Layer"
+    D[Spring Boot Services]
+    E[Node.js Services]
+end
 
-### ***Caching Strategy***
-To keep our platform fast and responsive, we're using Redis to temporarily store frequently accessed data:
-- This includes things like user profiles, trip details, and search results.
-- We'll also use Redis for managing user sessions and implementing features like rate limiting and leaderboards.
+subgraph "Data Layer"
+    F[PostgreSQL]
+    G[MongoDB]
+    H[Elasticsearch]
+    I[Redis Cache]
+end
+
+subgraph "External Services"
+    J[Social Media APIs]
+    K[Booking APIs]
+    L[Weather API]
+    M[Currency Exchange API]
+end
+
+A --> C
+B --> C
+C --> D
+C --> E
+D <--> E
+D --> F
+D --> G
+D --> H
+D --> I
+E --> G
+E --> H
+E --> I
+D <--> J
+D <--> K
+D <--> L
+D <--> M
+E <--> J
+E <--> K
+```
+```mermaid
+graph LR
+A[Spring Boot Services] --> B[Kafka Producers]
+C[Node.js Services] --> B
+B --> D[Kafka Cluster]
+D --> E[Kafka Consumers]
+E --> F[Spring Boot Services]
+E --> G[Node.js Services]
+E --> H[Elasticsearch]
+E --> I[Analytics Service]
+```
+```mermaid
+graph TD
+A[Spring Boot Services] --> B[Elasticsearch]
+C[Node.js Services] --> B
+B --> D[Search Service]
+B --> E[Analytics Service]
+F[Kafka] --> |Data Streaming| B
+G[PostgreSQL] --> |Data Sync| B
+H[MongoDB] --> |Data Sync| B
+```
+```mermaid
+graph TD
+subgraph Kubernetes Cluster
+    A[Ingress Controller]
+    subgraph Services
+        B[Spring Boot Services]
+        C[Node.js Services]
+        D[Kafka]
+        E[Elasticsearch]
+    end
+    F[Persistent Volumes]
+end
+G[External Load Balancer] --> A
+A --> B
+A --> C
+B --> F
+C --> F
+D --> F
+E --> F
+H[CI/CD Pipeline] --> |Deploy| Services
+```
+- Define service boundaries between Spring Boot and Node.js components.
+    - Spring Boot Services:
+        - User Management: Handle user registration, authentication, and profile management.
+        - Itinerary Management: Manage creation, editing, and sharing of itineraries.
+        - Booking Integration: Handle integration with external booking APIs.
+        - Search and Discovery: Manage advanced search functionality and personalized recommendations.
+        - Reviews and Ratings: Handle the review and rating system.
+    - Node.js Services:
+        - Real-time Communication: Manage chat functionality and real-time notifications.
+        - Social Features: Handle activity feeds, post creation, and sharing.
+        - Dynamic Pricing Alerts: Manage price monitoring and alert notifications.
+        - Analytics: Handle user activity tracking and generate reports
+```
+The service boundaries are defined based on the strengths of each technology:
+- Spring Boot is used for core business logic and data-intensive operations.
+- Node.js is utilized for real-time features and operations that benefit from its non-blocking I/O.
+Both Spring Boot and Node.js services will communicate with each other using gRPC for efficient inter-service communication. They will also both interact with the data layer and external services as needed.
+```
+- Design database schema for PostgreSQL.
+```postgresql
+-- Users table
+CREATE TABLE Users (
+UserID SERIAL PRIMARY KEY,
+Email VARCHAR(255) UNIQUE NOT NULL,
+PasswordHash VARCHAR(255) NOT NULL,
+FirstName VARCHAR(50),
+LastName VARCHAR(50),
+ProfilePictureURL VARCHAR(255),
+Bio TEXT,
+Role VARCHAR(20) CHECK (Role IN ('User', 'Admin', 'Moderator'))
+);
+-- UserPreferences table
+CREATE TABLE UserPreferences (
+PreferenceID SERIAL PRIMARY KEY,
+UserID INTEGER REFERENCES Users(UserID),
+PreferenceType VARCHAR(50),
+PreferenceValue TEXT
+);
+-- Trips table
+CREATE TABLE Trips (
+TripID SERIAL PRIMARY KEY,
+UserID INTEGER REFERENCES Users(UserID),
+Title VARCHAR(255) NOT NULL,
+StartDate DATE,
+EndDate DATE,
+Description TEXT,
+PrivacySetting VARCHAR(20)
+);
+-- TripCollaborators table
+CREATE TABLE TripCollaborators (
+CollaborationID SERIAL PRIMARY KEY,
+TripID INTEGER REFERENCES Trips(TripID),
+UserID INTEGER REFERENCES Users(UserID),
+PermissionLevel VARCHAR(20)
+);
+-- Categories table
+CREATE TABLE Categories (
+CategoryID SERIAL PRIMARY KEY,
+Name VARCHAR(50) UNIQUE NOT NULL,
+Type VARCHAR(20) CHECK (Type IN ('Destination', 'Activity'))
+);
+-- Destinations table
+CREATE TABLE Destinations (
+DestinationID SERIAL PRIMARY KEY,
+TripID INTEGER REFERENCES Trips(TripID),
+Name VARCHAR(255) NOT NULL,
+Latitude DECIMAL(10, 8),
+Longitude DECIMAL(11, 8),
+CategoryID INTEGER REFERENCES Categories(CategoryID)
+);
+-- Activities table
+CREATE TABLE Activities (
+ActivityID SERIAL PRIMARY KEY,
+TripID INTEGER REFERENCES Trips(TripID),
+DestinationID INTEGER REFERENCES Destinations(DestinationID),
+Name VARCHAR(255) NOT NULL,
+StartTime TIMESTAMP,
+EndTime TIMESTAMP,
+Notes TEXT,
+CategoryID INTEGER REFERENCES Categories(CategoryID)
+);
+-- Reviews table
+CREATE TABLE Reviews (
+ReviewID SERIAL PRIMARY KEY,
+UserID INTEGER REFERENCES Users(UserID),
+DestinationID INTEGER REFERENCES Destinations(DestinationID),
+Rating INTEGER CHECK (Rating BETWEEN 1 AND 5),
+Comment TEXT,
+Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+-- Followers table
+CREATE TABLE Followers (
+FollowerID SERIAL PRIMARY KEY,
+UserID INTEGER REFERENCES Users(UserID),
+FollowedUserID INTEGER REFERENCES Users(UserID),
+Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+-- Bookings table
+CREATE TABLE Bookings (
+BookingID SERIAL PRIMARY KEY,
+UserID INTEGER REFERENCES Users(UserID),
+TripID INTEGER REFERENCES Trips(TripID),
+Type VARCHAR(50),
+ConfirmationNumber VARCHAR(100),
+BookingDetails JSONB
+);
+-- UserAchievements table
+CREATE TABLE UserAchievements (
+AchievementID SERIAL PRIMARY KEY,
+UserID INTEGER REFERENCES Users(UserID),
+AchievementName VARCHAR(100),
+AchievementDescription TEXT,
+DateEarned TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+- Design data models for MongoDB.
+```javascript
+//Messages Collection
+{
+_id: Objectid,
+senderld: ObjectId,
+receiverld: Objectid,
+content: String,
+createdAt: Date,
+updatedAt: Date,
+isRead: Boolean
+}
+//ChatRooms Collection:
+{
+_id: Objectid,
+name: String,
+participants: [ObjectId],
+createdAt: Date,
+updatedAt: Date,
+}
+//Notifications Collection
+{
+_id: Objectid,
+userId: Objectid,
+type: String,
+content: String,
+isRead: Boolean,
+createdAt: Date,
+updatedAt: Date,
+}
+//Posts Collection:
+{
+_id: ObjectId,
+userld: ObjectId,
+content: String,
+mediaUrls: [String],
+likes: [ObjectId],
+comments: [
+    {
+    userld: ObjectId,
+    content: String,
+    timestamp: Date
+    }
+],
+createdAt: Date,
+updatedAt: Date
+}
+//TripNotes Collection
+{
+_id: Objectid,
+tripld: ObjectId,
+userld: Objectid,
+content: String,
+createdAt: Date,
+updatedAt: Date
+}
+```
+- Plan Elasticsearch integration for search functionality.
+    - *Use Cases and Requirements*
+        - *Advanced Search:* Allow users to search by destinations, activities, dates, and user profiles.
+        - *Filters:* Enable filtering of search results by categories, ratings, price ranges, etc.
+    - *Data Indexing Strategy*
+        - *Documents:* Define documents for indexing, such as user profiles, itineraries, destinations, activities, posts, and reviews.
+        - *Mappings:* Create Elasticsearch mappings to define the structure of these documents.
+    - *User Profiles:*
+    ```json
+    {
+      "mappings": {
+        "properties": {
+          "userId": { "type": "keyword" },
+          "firstName": { "type": "text" },
+          "lastName": { "type": "text" },
+          "bio": { "type": "text" },
+          "trips": {
+            "type": "nested",
+            "properties": {
+              "tripId": { "type": "keyword" },
+              "title": { "type": "text" },
+              "startDate": { "type": "date" },
+              "endDate": { "type": "date" }
+            }
+          }
+        }
+      }
+    }
+    ```
+    - *Itineraries:*
+    ```json
+    {
+      "mappings": {
+        "properties": {
+          "tripId": { "type": "keyword" },
+          "title": { "type": "text" },
+          "startDate": { "type": "date" },
+          "endDate": { "type": "date" },
+          "destinations": {
+            "type": "nested",
+            "properties": {
+              "destinationId": { "type": "keyword" },
+              "name": { "type": "text" },
+              "latitude": { "type": "float" },
+              "longitude": { "type": "float" }
+            }
+          },
+          "activities": {
+            "type": "nested",
+            "properties": {
+              "activityId": { "type": "keyword" },
+              "name": { "type": "text" },
+              "startTime": { "type": "date" },
+              "endTime": { "type": "date" }
+            }
+          }
+        }
+      }
+    }
+    ```
+  - *Search Implementation*
+    - Develop a search service that interfaces with Elasticsearch.
+    - Implement full-text search across all indexed entities.
+    - Use multi-match queries for searching across multiple fields:
+    ```json
+    {
+      "multi_match": {
+        "query": "beach vacation",
+        "fields": ["title", "description", "tags"]
+      }
+    }
+    ```
+    - Implement geo-spatial queries for location-based searches:
+    ```json
+    {
+      "geo_distance": {
+        "distance": "100km",
+        "location": {
+          "lat": 40.7128,
+          "lon": -74.0060
+        }
+      }
+    }
+    ```
+    - Use date range queries for trip searches:
+    ```json
+    {
+      "range": {
+        "startDate": {
+          "gte": "2023-07-01",
+          "lte": "2023-08-31"
+        }
+      }
+    }
+    ```
+
+  - *Advanced Features*
+    - Implement faceted search using aggregations:
+    ```json
+    {
+      "aggs": {
+        "popular_tags": {
+          "terms": { "field": "tags" }
+        }
+      }
+    }
+    ```
+    - Use fuzzy matching for typo tolerance:
+    ```json
+    {
+      "match": {
+        "title": {
+          "query": "beech",
+          "fuzziness": "AUTO"
+        }
+      }
+    }
+    ```
+    - Implement autocomplete functionality using edge ngram tokenizer
+    - Use highlighting to show matched terms in search results
+  - *Data Ingestion Process*
+        - *Real-Time Data Sync:* Use Kafka for real-time data streaming from PostgreSQL and MongoDB to Elasticsearch.
+        - *Batch Data Processing:* Implement periodic batch jobs to sync data from the main databases to Elasticsearch.
+    - *Search API*
+        - *Elasticsearch Query:* Design Elasticsearch queries to support complex search and filter operations.
+        - *GraphQL Integration:* Create GraphQL resolvers to interact with Elasticsearch and fetch search results.
+    - *Performance Optimization*
+        - *Indexing Strategy:* Optimize indexing settings (e.g., number of shards and replicas) based on the expected data volume.
+        - *Search Tuning:* Use analyzers, tokenizers, and custom scoring algorithms to enhance search accuracy and performance.
+    - *Security and Access Control*
+        - *Authentication:* Use JWT for secure access to the search API.
+        - *Authorization:* Implement role-based access control to restrict access to certain search functionalities.
+- Plan caching strategy with Redis.
+  - *Use Cases and Requirements*
+    -  Cache-Aside (Lazy Loading)
+      -  Implement for frequently accessed, relatively static data (e.g., user profiles, trip details)
+  - Write-Through
+    - Use for data that needs to be immediately consistent (e.g., user settings, trip collaborators)
+  - Time-based Expiration
+    - Implement for data that can tolerate some staleness (e.g., popular destinations, trending activities)
+    - Set appropriate TTL (Time To Live) based on data volatility
+  - Session Management
+    - Store session data in Redis for fast access and easy distribution across servers
+    - Use Redis' built-in expiration for automatic session cleanup.
+  - Rate Limiting
+    - Implement rate limiting using Redis' incrementing counters with expiration
+  - Leaderboards
+    - Use Redis Sorted Sets for efficient leaderboard implementation
+  - Distributed Locking
+    - Implement distributed locks for managing concurrent access to shared resources
+    - Use Redis' atomic operations to ensure lock integrity
+  - Eviction Policies
+    - Configure appropriate eviction policies based on use case:
+      - volatile-lru: Evict least recently used keys with expiration set
+      - allkeys-lru: Evict least recently used keys
+      - volatile-ttl: Evict keys with shortest time to live
+    - *Session Management:* Store user session data to ensure quick retrieval and manage user sessions.
+    - *Data Caching:* Cache frequently accessed data to reduce database load and improve response times.
+    - *Real-Time Messaging:* Use Redis for real-time messaging and notifications.
+  - *Data Caching*
+    - *Cache Strategy:* Identify frequently accessed data such as user profiles, itineraries, and search results.
+    - *Cache Keys:* Design cache keys to ensure efficient data retrieval.
+    - *Example Cache Key:* `userProfile:{userId}`, `itinerary:{tripId}`
+    - *Spring Cache Integration:** Use Spring Cache with Redis to manage caching in Spring Boot.
+  ```java
+  @Cacheable(value = "userProfiles", key = "#userId")
+  public UserProfile getUserProfile(String userId) {
+    // Method implementation
+  }
+  ```
+  - *Real-Time Messaging*
+    - *Publish-Subscribe Model:* Use Redis Pub/Sub for real-time message broadcasting.
+    - *Example Channels:* `notifications:{userId}`, `chatRoom:{roomId}`
+    - *Redis Integration in Node.js:* Use the `redis` package in Node.js to implement Pub/Sub functionality.
+  ```javascript
+  const redis = require('redis');
+  const subscriber = redis.createClient();
+  const publisher = redis.createClient();
+
+  subscriber.subscribe('notifications:user123');
+
+  subscriber.on('message', (channel, message) => {
+    console.log(`Received message: ${message} from channel: ${channel}`);
+  });
+
+  publisher.publish('notifications:user123', 'New notification message');
+  ```
+  - *Performance Optimization*
+    - *TTL Settings:* Set appropriate TTL for cached data to ensure stale data is evicted.
+    - *Eviction Policies:* Use Redis eviction policies (e.g., LRU, LFU) to manage cache size and evict least-used data.
+  - *Monitoring and Management*
+    - *Redis Monitoring:* Use tools like RedisInsight to monitor Redis performance and manage data.
+    - *Cache Metrics:** Integrate with Prometheus and Grafana to visualize cache performance metrics.
+  - *Security and Access Control*
+    - *Secure Connection:* Use SSL/TLS for secure communication with the Redis server.
+    - *Authentication:* Use Redis AUTH to secure access to the Redis instance.
+
+### ***API Design***
+- Design GraphQL schema for client-server communication.
+- Define gRPC service definitions for inter-service communication.
+- Plan RESTful APIs for external integrations.
+
+### ***Security Architecture***
+- Design authentication and authorization system.
+- Plan data encryption strategies.
+- Design secure communication protocols.
 
 ## ***Frontend Design Planner***
 
-This section outlines our plans for what users will see and interact with:
-
 ### ***UI/UX Design***
-We're focusing on creating an intuitive and visually appealing interface:
-- We'll create wireframes (rough sketches) of key screens to plan the layout.
-- Our designs will be responsive, meaning they'll look good on both desktop and mobile devices.
-- We'll develop a consistent style guide to ensure a cohesive look across the platform.
+- Create wireframes for key user interfaces.
+- Design responsive layouts for web and mobile.
+- Develop UI component library and style guide.
 
-By implementing these features and following this design plan, we aim to create a comprehensive, user-friendly platform that revolutionizes how people plan, share, and experience their travels.
