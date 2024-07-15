@@ -189,7 +189,6 @@ A comprehensive travel itinerary planner that allows users to create, share, and
 ### System Architecture Design
 - Create high-level system architecture diagram.
 ```mermaid
-
 graph TD
 subgraph "Client Layer"
     A[Web App - React]
@@ -237,9 +236,67 @@ D <--> L
 D <--> M
 E <--> J
 E <--> K
-
 ```
-- Define service boundaries between Spring Boot and Node.js components..
+```mermaid
+graph LR
+A[Spring Boot Services] --> B[Kafka Producers]
+C[Node.js Services] --> B
+B --> D[Kafka Cluster]
+D --> E[Kafka Consumers]
+E --> F[Spring Boot Services]
+E --> G[Node.js Services]
+E --> H[Elasticsearch]
+E --> I[Analytics Service]
+```
+```mermaid
+graph TD
+A[Spring Boot Services] --> B[Elasticsearch]
+C[Node.js Services] --> B
+B --> D[Search Service]
+B --> E[Analytics Service]
+F[Kafka] --> |Data Streaming| B
+G[PostgreSQL] --> |Data Sync| B
+H[MongoDB] --> |Data Sync| B
+```
+```mermaid
+graph TD
+subgraph Kubernetes Cluster
+    A[Ingress Controller]
+    subgraph Services
+        B[Spring Boot Services]
+        C[Node.js Services]
+        D[Kafka]
+        E[Elasticsearch]
+    end
+    F[Persistent Volumes]
+end
+G[External Load Balancer] --> A
+A --> B
+A --> C
+B --> F
+C --> F
+D --> F
+E --> F
+H[CI/CD Pipeline] --> |Deploy| Services
+```
+- Define service boundaries between Spring Boot and Node.js components.
+    - Spring Boot Services:
+        - User Management: Handle user registration, authentication, and profile management.
+        - Itinerary Management: Manage creation, editing, and sharing of itineraries.
+        - Booking Integration: Handle integration with external booking APIs.
+        - Search and Discovery: Manage advanced search functionality and personalized recommendations.
+        - Reviews and Ratings: Handle the review and rating system.
+    - Node.js Services:
+        - Real-time Communication: Manage chat functionality and real-time notifications.
+        - Social Features: Handle activity feeds, post creation, and sharing.
+        - Dynamic Pricing Alerts: Manage price monitoring and alert notifications.
+        - Analytics: Handle user activity tracking and generate reports
+```
+The service boundaries are defined based on the strengths of each technology:
+- Spring Boot is used for core business logic and data-intensive operations.
+- Node.js is utilized for real-time features and operations that benefit from its non-blocking I/O.
+Both Spring Boot and Node.js services will communicate with each other using gRPC for efficient inter-service communication. They will also both interact with the data layer and external services as needed.
+```
 - Design database schema for PostgreSQL.
 - Design data models for MongoDB.
 - Plan Elasticsearch integration for search functionality.
@@ -262,4 +319,3 @@ E <--> K
 - Create wireframes for key user interfaces.
 - Design responsive layouts for web and mobile.
 - Develop UI component library and style guide.
-
