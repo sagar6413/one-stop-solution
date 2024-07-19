@@ -69,7 +69,7 @@ graph LR
  TP[Third-party APIs]
  Monitor[Monitoring & Logging]
 
- Client -->|HTTPS| AG
+ Client -->|GraphQL| AG
  AG -->|GraphQL/gRPC| MS
  MS <-->|CRUD| DB
  MS <-->|Cache| Cache
