@@ -455,7 +455,7 @@ Zipkin will provide insights into the behavior of our microservices:
 ## 15. Folder Structure
 
 ```mermaid
-graph TD
+graph LR
     A["travel-platform"]
     
     A --> B["diagrams"]
