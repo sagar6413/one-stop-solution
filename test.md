@@ -1,13 +1,13 @@
 ```mermaid
-graph LR
+graph TD
     %% Define styles
-    classDef client fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef gateway fill:#ff9,stroke:#333,stroke-width:2px;
-    classDef service fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef db fill:#9f9,stroke:#333,stroke-width:2px;
-    classDef cache fill:#f99,stroke:#333,stroke-width:2px;
-    classDef external fill:#f66,stroke:#333,stroke-width:2px;
-    classDef misc fill:#6f6,stroke:#333,stroke-width:2px;
+    classDef client fill:#f9f,stroke:#333,stroke-width:2px,color:#000;
+    classDef gateway fill:#ff9,stroke:#333,stroke-width:2px,color:#000;
+    classDef service fill:#bbf,stroke:#333,stroke-width:2px,color:#000;
+    classDef db fill:#9f9,stroke:#333,stroke-width:2px,color:#000;
+    classDef cache fill:#f99,stroke:#333,stroke-width:2px,color:#000;
+    classDef external fill:#f66,stroke:#333,stroke-width:2px,color:#000;
+    classDef misc fill:#6f6,stroke:#333,stroke-width:2px,color:#000;
 
     %% Subgraphs for organization
     subgraph Clients
