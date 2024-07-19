@@ -24,29 +24,38 @@ graph TD
 ```
 ```mermaid
 graph TD
-    %% Nodes with styles
-    A[Client Applications]
-    B[API Gateway/Load Balancer]
-    C[GraphQL API Layer]
-    D[Authentication Service]
-    E[User Service]
-    F[Itinerary Service]
-    G[Social Service]
-    H[Booking Service]
-    I[Recommendation Service]
-    J[Notification Service]
-    K[Analytics Service]
-    L[gRPC]
-    M[Kafka]
-    N[Data Processing Service]
-    O[PostgreSQL Cluster]
-    P[Redis Cache]
-    Q[Elasticsearch]
-    R[Third-party APIs]
-    S[Admin Dashboard]
-    T[Monitoring & Logging]
-    U[Service Discovery]
-    V[Config Server]
+    %% Define styles
+    classDef client fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef gateway fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef service fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef db fill:#9f9,stroke:#333,stroke-width:2px;
+    classDef cache fill:#f99,stroke:#333,stroke-width:2px;
+    classDef external fill:#f66,stroke:#333,stroke-width:2px;
+    classDef misc fill:#6f6,stroke:#333,stroke-width:2px;
+
+    %% Nodes
+    A[Client Applications]:::client
+    B[API Gateway/Load Balancer]:::gateway
+    C[GraphQL API Layer]:::gateway
+    D[Authentication Service]:::service
+    E[User Service]:::service
+    F[Itinerary Service]:::service
+    G[Social Service]:::service
+    H[Booking Service]:::service
+    I[Recommendation Service]:::service
+    J[Notification Service]:::service
+    K[Analytics Service]:::service
+    L[gRPC]:::misc
+    M[Kafka]:::misc
+    N[Data Processing Service]:::service
+    O[PostgreSQL Cluster]:::db
+    P[Redis Cache]:::cache
+    Q[Elasticsearch]:::db
+    R[Third-party APIs]:::external
+    S[Admin Dashboard]:::client
+    T[Monitoring & Logging]:::misc
+    U[Service Discovery]:::misc
+    V[Config Server]:::misc
 
     %% Connections
     A --> B
@@ -96,22 +105,4 @@ graph TD
     V --> I
     V --> J
     V --> K
-
-    %% Styling
-    classDef client fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef gateway fill:#ff9,stroke:#333,stroke-width:2px;
-    classDef service fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef db fill:#9f9,stroke:#333,stroke-width:2px;
-    classDef cache fill:#f99,stroke:#333,stroke-width:2px;
-    classDef external fill:#f66,stroke:#333,stroke-width:2px;
-    classDef misc fill:#6f6,stroke:#333,stroke-width:2px;
-
-    %% Apply styles
-    A,S:::client
-    B,C:::gateway
-    D,E,F,G,H,I,J,K,N:::service
-    O,Q:::db
-    P:::cache
-    R:::external
-    T,U,V,L,M:::misc
 ```
