@@ -306,25 +306,25 @@ graph LR
 flowchart LR
     %% Define subgraphs
     subgraph Client["Client Applications"]
-        direction TB
+        direction LR
         Web["Web Application"]
         Mobile["Mobile Application"]
     end
 
     subgraph API["API Layer"]
-        direction TB
+        direction LR
         AG["API Gateway"]
         GQL["GraphQL API"]
     end
 
     subgraph Discovery["Service Discovery & Config"]
-        direction TB
+        direction LR
         Eureka["Netflix Eureka"]
         Config["Spring Cloud Config"]
     end
 
     subgraph CoreServices["Core Services"]
-        direction LR
+        direction TB
         subgraph UserRelated["User-Related Services"]
             US["User Service"]
             GamS["Gamification Service"]
