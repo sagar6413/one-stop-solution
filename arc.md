@@ -302,3 +302,126 @@ graph LR
     class Eureka,Config highlight;
     class DPS highlight;
 ```
+```mermaid
+flowchart LR
+    %% Define subgraphs
+    subgraph Client["Client Applications"]
+        direction TB
+        Web["Web Application"]
+        Mobile["Mobile Application"]
+    end
+
+    subgraph API["API Layer"]
+        direction TB
+        AG["API Gateway"]
+        GQL["GraphQL API"]
+    end
+
+    subgraph Discovery["Service Discovery & Config"]
+        direction TB
+        Eureka["Netflix Eureka"]
+        Config["Spring Cloud Config"]
+    end
+
+    subgraph CoreServices["Core Services"]
+        direction LR
+        subgraph UserRelated["User-Related Services"]
+            US["User Service"]
+            GamS["Gamification Service"]
+        end
+        subgraph TravelRelated["Travel-Related Services"]
+            IS["Itinerary Service"]
+            RS["Reservation Service"]
+            CS["Content Service"]
+        end
+        subgraph SupportServices["Support Services"]
+            IntS["Integration Service"]
+            SS["Search Service"]
+            RecS["Recommendation Service"]
+        end
+        subgraph CommunicationServices["Communication Services"]
+            NS["Notification Service"]
+            MS["Messaging Service"]
+        end
+        subgraph AnalyticsServices["Analytics Services"]
+            AS["Analytics Service"]
+            RRS["Reviews and Ratings Service"]
+        end
+        subgraph LocationServices["Location Services"]
+            GS["Geolocation Service"]
+        end
+        subgraph FinancialServices["Financial Services"]
+            PS["Payment Service"]
+        end
+    end
+
+    subgraph DataProcessing["Data Processing"]
+        DPS["Data Processing Service"]
+    end
+
+    subgraph DataStores["Data Stores"]
+        PG[("PostgreSQL")]
+        Redis[("Redis Cache")]
+        ES[("Elasticsearch")]
+    end
+
+    subgraph MessageQueue["Message Queue"]
+        Kafka["Apache Kafka"]
+    end
+
+    subgraph ExternalServices["External Services"]
+        TP["Third-party APIs"]
+    end
+
+    subgraph Monitoring["Monitoring & Logging"]
+        Prometheus["Prometheus"]
+        Grafana["Grafana"]
+        ELK["ELK Stack"]
+        Sentry["Sentry"]
+    end
+
+    subgraph Security["Security"]
+        Keycloak["Keycloak"]
+        Vault["HashiCorp Vault"]
+    end
+
+    subgraph ServiceMesh["Service Mesh"]
+        Istio["Istio"]
+    end
+
+    %% Define connections
+    Client --> API
+    API --> CoreServices
+    CoreServices <--> DataStores
+    CoreServices <--> MessageQueue
+    CoreServices <--> ExternalServices
+    DataProcessing <--> MessageQueue
+    DataProcessing <--> DataStores
+    Discovery --> CoreServices
+    Monitoring --> CoreServices
+    Monitoring --> API
+    Monitoring --> DataStores
+    Monitoring --> MessageQueue
+    Security --> CoreServices
+    Security --> API
+    ServiceMesh --> CoreServices
+    ServiceMesh --> API
+
+    %% Styling
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef highlight fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef data fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef queue fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    classDef external fill:#fce4ec,stroke:#880e4f,stroke-width:2px;
+    classDef monitor fill:#f3e5f5,stroke:#4a148c,stroke-width:2px;
+    classDef security fill:#ffebee,stroke:#b71c1c,stroke-width:2px;
+    classDef mesh fill:#e0f2f1,stroke:#004d40,stroke-width:2px;
+
+    class Client,API,CoreServices,Discovery highlight;
+    class DataStores data;
+    class MessageQueue queue;
+    class ExternalServices external;
+    class Monitoring monitor;
+    class Security security;
+    class ServiceMesh mesh;
+```
