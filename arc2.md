@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     %% Main application flow
     subgraph CL["Client Layer"]
@@ -113,3 +114,4 @@ flowchart TB
     class Prometheus,Grafana,ELK,Sentry monitoring
     class Keycloak,Vault security
     class Istio mesh
+```
