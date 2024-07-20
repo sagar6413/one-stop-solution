@@ -359,6 +359,10 @@ erDiagram
      string id PK
      string username
      string email
+string firstName
+string lastName
+string bio
+string profilePictureUrl
      string password_hash
      date created_at
      date updated_at
