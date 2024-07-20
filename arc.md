@@ -312,13 +312,13 @@ flowchart LR
     end
 
     subgraph API["API Layer"]
-        direction LR
+        direction TB
         AG["API Gateway"]
         GQL["GraphQL API"]
     end
 
     subgraph Discovery["Service Discovery & Config"]
-        direction LR
+        direction TB
         Eureka["Netflix Eureka"]
         Config["Spring Cloud Config"]
     end
