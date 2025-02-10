@@ -74,18 +74,18 @@
 
 ### **4. Expense Summary and Settlements**
 
-| Person                  | Food & Drinks/Transportation/Accommodation Due (₹) | Religious/Temple Due (₹) | Paid (₹) |  Net (₹)   | Action          |
-|-------------------------|-----------------|-------------|----------|-------------|-----------------|
-| Jayshree                | 12,192          | 750         | 0        | -12,942     | Pays ₹12,942    |
-| Jaya                    | 12,192          | 750         | 1,950    | -10,992     | Pays ₹10,992     |
-| Kundan                  | 12,192          | 750         | 15,310   | +2,368      | Receives ₹2,368 |
-| Bhanu                   | 0               | 750         | 450      | -300        | Pays ₹300        |
-| Shweta                  | 0               | 750         | 0        | -750        | Pays ₹750        |
-| Nidhi                   | 0               | 0           | 0        | 0           | No Action       |
-| Monika                  | 0               | 0           | 300      | +300        | Receives ₹300   |
-| Bishwajit               | 0               | 0           | 2,350    | +2,350      | Receives ₹2,350 |
-| Sagar                   | 0               | 0           | 19,966   | +19,966     | Receives ₹19,966|
-| **Totals**              | **36,576**      | **3,750**   |**40,326**| **0**        |                 |
+| Person                  | Food & Drinks/Transportation/Accommodation Due (₹) | Religious/Temple Due (₹) | Paid (₹) |  Net (₹)   | Lend | Borrowed | Action          |
+|-------------------------|-----------------|-------------|----------|-------------|-----------------|-------------|-----------------|
+| Jayshree                | 12,192          | 750         | 0        | -12,942 | 0|0     | Pays ₹12,942    |
+| Jaya                    | 12,192          | 750         | 1,950    | -10,992   | 20000|0  | Receives ₹9,008     |
+| Kundan                  | 12,192          | 750         | 15,310   | +2,368      | 0|20000| Pays ₹17,632 |
+| Bhanu                   | 0               | 750         | 450      | -300      | 0|0  | Pays ₹300        |
+| Shweta                  | 0               | 750         | 0        | -750      | 0|0  | Pays ₹750        |
+| Nidhi                   | 0               | 0           | 0        | 0         | 0|0  | No Action       |
+| Monika                  | 0               | 0           | 300      | +300      | 0|0  | Receives ₹300   |
+| Bishwajit               | 0               | 0           | 2,350    | +2,350    | 0|0  | Receives ₹2,350 |
+| Sagar                   | 0               | 0           | 19,966   | +19,966   | 0|0  | Receives ₹19,966|
+
 
 #### Jaya has lend ₹20,000 to Kundan
 
