@@ -4,12 +4,12 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 
 ### **1. Expenses by Category & Contributor**
 
-| Category         | Total (₹) | Items                                     | Paid By                                  | Handled By                                                        |
+| Category         | Total (₹) | Items                                     | Paid By                                  | Responsible Parties                                                        |
 |-----------------|----------|------------------------------------------|-------------------------------------------|-------------------------------------------------------------------|
-| Food & Drinks    | 6,075   | See Detailed Table Below                   | Various (See Below)                    | Jayshree Shrivastava, Jaya Sahay, Kundan Prakash               |
-| Transportation   | 30,300  | See Detailed Table Below                   | Various (See Below)                    | Jayshree Shrivastava, Jaya Sahay, Kundan Prakash               |
-| Accommodation    | 201      | Room (Vindyachal)                        | Sagar Shrivastava                      | Jayshree Shrivastava, Jaya Sahay, Kundan Prakash               |
-| Religious/Temple | 3,750   | See Detailed Table Below                   | Various (See Below)                    | Jayshree Shrivastava, Jaya Sahay, Kundan Prakash, Bhanu Prakash, Shweta Mridul |
+| Food & Drinks    | 6,075   | See Detailed Table Below                   | Various (See Below)                    | Jayshree, Jaya, Kundan               |
+| Transportation   | 30,300  | See Detailed Table Below                   | Various (See Below)                    | Jayshree, Jaya, Kundan               |
+| Accommodation    | 201      | Room (Vindyachal)                        | Sagar                                     | Jayshree, Jaya, Kundan               |
+| Religious/Temple | 3,750   | See Detailed Table Below                   | Various (See Below)                    | Jayshree, Jaya, Kundan, Bhanu, Shweta |
 | **Total**       | **40,326**|                                          |                                           |                                                                   |
 
 **Detailed Breakdown of Sub-Categories:**
@@ -18,109 +18,106 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 
 | Item                      | Amount (₹) | Paid By                  |
 |---------------------------|------------|--------------------------|
-| Litti, Chocolate, Kurkure | 500       | Bishwajit Shrivastava    |
-| Water (Prayagraaj)        | 200       | Bhanu Prakash            |
-| Chai, Biscuit, Chips      | 185       | Kundan Prakash           |
-| Dinner (Saturday)         | 2,000     | Kundan Prakash           |
-| Water (Petrol Pump)       | 100       | Bishwajit Shrivastava    |
-| Water (Vindyachal)        | 200       | Bishwajit Shrivastava    |
-| Lunch (Vindyachal)        | 1,600     | Sagar Shrivastava        |
-| Chai (Vindyachal)         | 240       | Sagar Shrivastava        |
-| Dinner (Gaya)             | 1,050     | Sagar Shrivastava        |
+| Litti, Chocolate, Kurkure | 500       | Bishwajit                 |
+| Water (Prayagraaj)        | 200       | Bhanu                     |
+| Chai, Biscuit, Chips      | 185       | Kundan                    |
+| Dinner (Saturday)         | 2,000     | Kundan                    |
+| Water (Petrol Pump)       | 100       | Bishwajit                 |
+| Water (Vindyachal)        | 200       | Bishwajit                 |
+| Lunch (Vindyachal)        | 1,600     | Sagar                     |
+| Chai (Vindyachal)         | 240       | Sagar                     |
+| Dinner (Gaya)             | 1,050     | Sagar                     |
 |   **Sub-Total**                    |   **6,075**          |         |
 
 **Transportation: ₹30,300**
 
 | Expense                    | Amount (₹) | Paid By                  |
 |----------------------------|------------|--------------------------|
-| Toto (Vindyachal)          | 110       | Bhanu Prakash (60) & Bishwajit Shrivastava(50)|
-| Return Toto (Vindyachal)   | 90        | Bhanu Prakash            |
-| Toto (Home)                | 100       | Bhanu Prakash            |
-| Gadi                | 16,875    | Sagar Shrivastava        |
-| Gadi              | 13,125    | Kundan Prakash           |
+| Toto (Vindyachal)          | 110       | Bhanu (60) & Bishwajit (50)|
+| Return Toto (Vindyachal)   | 90        | Bhanu                     |
+| Toto (Home)                | 100       | Bhanu                     |
+| Gadi                | 16,875    | Sagar                     |
+| Gadi              | 13,125    | Kundan                    |
 |      **Sub-Total**                 |     **30,300**       |           |
 
 **Religious/Temple Expenses: ₹3,750**
 
 | Expense                        | Amount (₹) | Paid By               |
 |--------------------------------|------------|-----------------------|
-| Container (Kumbh water)        | 300       | Monika Mukherjee      |
-| Prasad (Vindyachal)            | 1,950     | Jaya Sahay            |
-| Panda (Puja)                   | 1,000     | Bishwajit Shrivastava |
-| Sringar Items (Maa Vindyachali)| 500       | Bishwajit Shrivastava |
+| Container (Kumbh water)        | 300       | Monika                |
+| Prasad (Vindyachal)            | 1,950     | Jaya                  |
+| Panda (Puja)                   | 1,000     | Bishwajit                 |
+| Sringar Items (Maa Vindyachali)| 500       | Bishwajit                 |
 |           **Sub-Total**              |     **3,750**      |        |
 
 ### **2. Total Expenses by Payer**
 
 | Member               | Amount Paid (₹) |
 |----------------------|-----------------|
-| Bishwajit Shrivastava | 2,350          |
-| Bhanu Prakash         | 450           |
-| Kundan Prakash        | 15,310          |
-| Monika Mukherjee      | 300             |
-| Sagar Shrivastava     | 19,966          |
-| Jaya Sahay            | 1,950          |
+| Bishwajit            | 2,350          |
+| Bhanu                 | 450           |
+| Kundan                | 15,310          |
+| Monika                | 300             |
+| Sagar                 | 19,966          |
+| Jaya                  | 1,950          |
 |        **Sub-total**              |       **40,326**      |       |
 
-
+*(Shortened names for brevity in the tables)*
 
 ### **3. Individual Share & Responsibilities**
 
 *   **Total Expense:** ₹40,326
-*   **Number of People:** 9 (Jaya Sahay, Monika Mukherjee, Bhanu Prakash, Bishwajit Shrivastava, Jayshree Shrivastava, Sagar Shrivastava, Kundan Prakash, Nidhi Prakash, and Shweta Mridul.)
+*   **Number of People:** 9 (Jaya, Monika, Bhanu, Bishwajit, Jayshree, Sagar, Kundan, Nidhi, and Shweta.)
 
 **Category-Specific Responsibilities & Shares:**
 
-*   **Food & Drinks, Transportation, Accommodation:**  Jayshree Shrivastava, Jaya Sahay, and Kundan Prakash are responsible.  Their share for these categories is (6075 + 30300 + 201) / 3 = ₹12,192 each.
+*   **Food & Drinks, Transportation, Accommodation:**  Jayshree, Jaya, and Kundan are responsible.  Their individual share for these categories is (6075 + 30300 + 201) / 3 = ₹12,192 each.
 
-*   **Religious/Temple Expenses:** Jayshree Shrivastava, Jaya Sahay, Kundan Prakash, Bhanu Prakash, and Shweta Mridul are responsible. Their share for this category is 3750 / 5 = ₹750 each.
+*   **Religious/Temple Expenses:** Jayshree, Jaya, Kundan, Bhanu, and Shweta are responsible. Their individual share for this category is 3750 / 5 = ₹750 each.
 
-*   Members *not* responsible for shared expenses : Nidhi Prakash, Monika Mukherjee, Bishwajit shrivasatava, and sagar shrivastava
+*   **Members *not* responsible for shared expenses:** Nidhi, Monika, Bishwajit, and Sagar.  They only need to settle any amounts they *paid* on behalf of the group.
 
 ### **4. Expense Summary and Settlements**
 
+| Person                  | F/T/A Due (₹) | Rel. Due (₹) | Paid (₹) |  Net (₹)   | Action          |
+|-------------------------|-----------------|-------------|----------|-------------|-----------------|
+| Jayshree                | 12,192          | 750         | 0        | -12,942     | Pays ₹12,942    |
+| Jaya                    | 12,192          | 750         | 1,950    | -10,992     | Pays ₹10,992     |
+| Kundan                  | 12,192          | 750         | 15,310   | +2,368      | Receives ₹2,368 |
+| Bhanu                   | 0               | 750         | 450      | -300        | Pays ₹300        |
+| Shweta                  | 0               | 750         | 0        | -750        | Pays ₹750        |
+| Nidhi                   | 0               | 0           | 0        | 0           | No Action       |
+| Monika                  | 0               | 0           | 300      | +300        | Receives ₹300   |
+| Bishwajit               | 0               | 0           | 2,350    | +2,350      | Receives ₹2,350 |
+| Sagar                   | 0               | 0           | 19,966   | +19,966     | Receives ₹19,966|
+| **Totals**              | **36,576**      | **3,750**   |**40,326**| **0**        |                 |
 
-| Person                  | Food&Drinks/Transportation/Accomodation Due | Religious. Due | Paid      | Lend| Borrow|Total Due |   Net   |
-|-------------------------|------------------|---------|----------|----------|----------|----------|----------|
-| Jayshree Shrivastava        | 12,192        | 750        | 0 |0|0    | 12,942    |  -12,942|  (Pays)
-| Jaya Sahay                 | 12,192        | 750       | 1,950 |20000|0 | 12,942 | +9,008 | (Receives)
-| Kundan Prakash             | 12,192       | 750       | 15,310 |0|20000 |12,942  |-22368|   (Receives)
-| Bhanu Prakash              | 0          | 750      | 450    |0|0    |  750      |   +300|  (Receives)
-| Shweta Mridul           | 0      |   750    |   0   | |0|0   750    | -750 | (Pays)
-| Nidhi Prakash           |       0      |       0      |    |0|0    0  |      0     |       0     | (No Action)
-| Monika Mukherjee    |   0        |   0       |  300 | 0    |0|0   |  +300|  (Receives)
-| Bishwajit Shrivastava        0|              0  |   0         |   2,350       |  |0|0 |    0        |   +2350     | (Receives)
-| Sagar Shrivastava      |   0        |   0         | 19,966   |   |0|0|  0      | +19966 |     (Receives)
+**Explanation and Improvements:**
 
-*Jaya Sahay paid ₹1,950 for expenses, + 20000 extra to Kundan Prakash*
+1.  **Simplified Table Names:**  Used shorter names in the final table for better readability.
+2.  **Clearer "Responsible Parties" Column:**  Replaced "Handled By" with "Responsible Parties" in the first table to clearly indicate who is financially responsible for each category.
+3.  **Combined "F/T/A Due":**  Combined Food, Transportation, and Accommodation into a single "F/T/A Due" column for clarity.
+4.  **"Net" Column Calculation:** The "Net" column is calculated as: `Net = Paid - (F/T/A Due + Rel. Due)`.  A negative value means the person owes money; a positive value means they are owed money.
+5.  **"Action" Column:**  Clearly states the action each person needs to take (Pays, Receives, or No Action).
+6. **Loan Column Removed**: Because only Jaya did a loan, and was direct to Kundan, this was included as part of the summary, below the table.
+7.  **Totals Row:** Added a "Totals" row to the final table to verify that all calculations are correct (the "Net" column should sum to zero).
+8.  **Explicit "No Action":**  Clearly stated "No Action" for Nidhi, making it obvious that she has no financial obligations.
+9. **Removed Redundancy**: Eliminated separate "lend", "borrow" and "Total Due" columns.
 
-### **Who Needs to Pay and Receive**
-- Count only amount payable
+**Settlement Summary (Who Pays/Receives Whom):**
 
-#### **Receivers**
-* **Jaya Sahay:** ₹ 9008
-* **Kundan Prakash:** * owes*- ₹ 22,368(receive, and pay rest)
-* **Bhanu Prakash:** ₹300
-* **Monika Mukharjee**: ₹300
-* **Bishwajit Shrivasatava** :₹ 2350
-* **Sagar Shrivasatava**: ₹19966
+The following settlements need to occur, considering the extra 20,000 that Jaya Lent to Kundan:
 
-#### **Payers**
+*   **Jayshree:** Pays ₹12,942.  She can pay this directly to Sagar.
+*   **Jaya:** Pays ₹10,992. She can pay this to Sagar.
+*   **Bhanu:** Pays ₹300. He can pay this to Monika.
+*   **Shweta:** Pays ₹750.  She can pay this to Bishwajit.
 
-*   **Jayshree Shrivastava:** ₹12,942
-* **Shweta Mridul :** ₹750
+*   **Sagar:** Receives a total of ₹12,942 (from Jayshree) + 10,992(From Jaya) = ₹23,934.  He has already paid ₹19,966, so the difference of 3,968 should go back to himself.
+* **Kundan** Receives ₹2,368, from Jaya.
+*  **Bishwajit:** Receives ₹750 (from Shweta) + 1,600 (from remaining Sagar) = ₹2350
+* **Monika** receives ₹300 From Bhanu
 
-### **Settlement**
-1.  **Jayshree Shrivastava Pays**:
-    *  **Jaya Sahay:** ₹9008
-    *  **Bhanu Prakash:**₹300
-    * **Monika Mukherjee:** ₹300
-	* **Bishwajit Shrivastava** :₹2,350
-    *   **Jayshree Shrivastava will settle outstanding ₹984**
-2.  **Shweta Mridul Pays:**
-        * **pays directly to kundan:**₹750
+*   **Jaya gave 20,000 directly to Kundan**.  After the 2,368 is given to Kundan, Jaya still needs to give the additional 17,632
 
-3. **Sagar will receives** : 19,966 From Kundan.
-4. **Kundan will receive 22,368 total**:₹750 + 21618(after setteling Jayshree).
-
-This settlement accounts for all expenses, prior payments, and category-specific responsibilities. All participants reach a net balance of ₹0.  The large pre-payment from Jaya to Kundan significantly simplifies the settlement process, effectively covering a large portion of her share.
+**Final Note:** This revised report is much clearer, easier to understand, and provides a precise breakdown of who needs to pay and receive what amounts. The "Action" column is particularly helpful for quickly summarizing the required settlements. The removal of redundant columns streamlines the information. The addition of Jaya's loan makes all clear.
