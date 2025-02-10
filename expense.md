@@ -10,6 +10,9 @@
 | Religious/Temple | 3,750   | See Detailed Table Below                   | Various (See Below)                    | Jayshree, Jaya, Kundan, Bhanu, Shweta |
 | **Total**       | **40,326**|                                          |                                           |                                                                   |
 
+*   **Total Expense:** ₹40,326
+*   **Number of People:** 9 (Jaya, Monika, Bhanu, Bishwajit, Jayshree, Sagar, Kundan, Nidhi, and Shweta.)
+
 **Detailed Breakdown of Sub-Categories:**
 
 **Food & Drinks: ₹6,075**
