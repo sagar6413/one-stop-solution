@@ -96,3 +96,11 @@ To settle the expenses, the following transactions should occur:
 *   **Jayshree Pays Sagar:** ₹1,584
 *   **Shweta Pays Sagar:** ₹750
 *   **Bhanu Pays Monika:** ₹300
+
+As Sagar is voluntring to take Jayshree's share
+## This sums up to be:
+
+*   **Kundan Pays Sagar:** ₹8,624
+*   **Kundan Pays Jaya:** ₹9,008
+*   **Shweta Pays Sagar:** ₹750
+*   **Bhanu Pays Monika:** ₹300
