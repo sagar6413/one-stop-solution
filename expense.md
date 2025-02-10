@@ -87,6 +87,8 @@
 | Sagar                   | 0               | 0           | 19,966   | +19,966     | Receives ₹19,966|
 | **Totals**              | **36,576**      | **3,750**   |**40,326**| **0**        |                 |
 
+*Jaya has lend ₹20,000 to Kundan
+
 **Settlement Summary (Who Pays/Receives Whom):**
 
 The following settlements need to occur, considering the extra 20,000 that Jaya Lent to Kundan:
