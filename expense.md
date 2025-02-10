@@ -7,14 +7,6 @@
 ## **1. Total Expenses by Category (with Contributors)**
 
 ### **Expense Breakdown**  
-```mermaid
-pie
-    title Total Expenses (₹40,326)
-    "Food & Drinks (₹6,075)": 15
-    "Transportation (₹30,300)": 75
-    "Accommodation (₹201)": 0.5
-    "Religious/Temple (₹3,750)": 9.5
-```
 
 ---
 
