@@ -86,7 +86,7 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 | Jaya Sahay            | 4,481      | 12,192        | 750       | 21,950* | 12,942 | +9,008 | (Receives)
 | Kundan Prakash         | 4,481      | 12,192       | 750       | 15,310 |12,942  |-22368|   (Receives)
 | Bhanu Prakash          | 4,481        | 0          | 750      | 450        |  750      |   +300|  (Receives)
-| Shweta Mridul *      | 4,481      | 0      |   750    |   0   |    750    | -750 | (Pays)
+| Shweta Mridul       | 4,481      | 0      |   750    |   0   |    750    | -750 | (Pays)
 | Nidhi Prakash       |   4,481         |       0      |       0      |        0  |      0     |       0     | (No Action)
 | Monika Mukherjee  |   4,481   |   0        |   0       |  300 | 0       |  +300|  (Receives)
 | Bishwajit Shrivastava         |     4,481         |       0     |   0         |   2,350       |       0        |   +2350     | (Receives)
