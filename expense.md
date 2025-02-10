@@ -89,7 +89,7 @@
 
 #### Jaya has lend ₹20,000 to Kundan
 
-**Settlement Summary (Who Pays/Receives Whom):**
+## **Settlement Summary (Who Pays/Receives Whom):**
 
 The following settlements need to occur, considering the extra 20,000 that Jaya Lent to Kundan:
 
