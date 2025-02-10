@@ -74,7 +74,7 @@
 
 ### **4. Expense Summary and Settlements**
 
-| Person                  | F/T/A Due (₹) | Rel. Due (₹) | Paid (₹) |  Net (₹)   | Action          |
+| Person                  | Food & Drinks/Transportation/Accommodation Due (₹) | Religious/Temple Due (₹) | Paid (₹) |  Net (₹)   | Action          |
 |-------------------------|-----------------|-------------|----------|-------------|-----------------|
 | Jayshree                | 12,192          | 750         | 0        | -12,942     | Pays ₹12,942    |
 | Jaya                    | 12,192          | 750         | 1,950    | -10,992     | Pays ₹10,992     |
