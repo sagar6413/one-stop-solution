@@ -87,18 +87,6 @@
 | Sagar                   | 0               | 0           | 19,966   | +19,966     | Receives ₹19,966|
 | **Totals**              | **36,576**      | **3,750**   |**40,326**| **0**        |                 |
 
-**Explanation and Improvements:**
-
-1.  **Simplified Table Names:**  Used shorter names in the final table for better readability.
-2.  **Clearer "Responsible Parties" Column:**  Replaced "Handled By" with "Responsible Parties" in the first table to clearly indicate who is financially responsible for each category.
-3.  **Combined "F/T/A Due":**  Combined Food, Transportation, and Accommodation into a single "F/T/A Due" column for clarity.
-4.  **"Net" Column Calculation:** The "Net" column is calculated as: `Net = Paid - (F/T/A Due + Rel. Due)`.  A negative value means the person owes money; a positive value means they are owed money.
-5.  **"Action" Column:**  Clearly states the action each person needs to take (Pays, Receives, or No Action).
-6. **Loan Column Removed**: Because only Jaya did a loan, and was direct to Kundan, this was included as part of the summary, below the table.
-7.  **Totals Row:** Added a "Totals" row to the final table to verify that all calculations are correct (the "Net" column should sum to zero).
-8.  **Explicit "No Action":**  Clearly stated "No Action" for Nidhi, making it obvious that she has no financial obligations.
-9. **Removed Redundancy**: Eliminated separate "lend", "borrow" and "Total Due" columns.
-
 **Settlement Summary (Who Pays/Receives Whom):**
 
 The following settlements need to occur, considering the extra 20,000 that Jaya Lent to Kundan:
