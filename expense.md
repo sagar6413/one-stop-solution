@@ -79,7 +79,6 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 
 ### **4. Expense Summary and Settlements**
 
-First, address the ₹20,000 Jaya Sahay already paid to Kundan Prakash.  This significantly impacts the final settlement.  Because Jaya paid Kundan directly, we subtract this from her *total due* and add it to Kundan's *total received*.
 
 | Person                 | Total Share | F&D/Trans/Acc Due | Rel. Due | Paid      | Total Due |   Net   |
 |-------------------------|-------------|------------------|---------|----------|----------|----------|
@@ -93,7 +92,7 @@ First, address the ₹20,000 Jaya Sahay already paid to Kundan Prakash.  This si
 | Bishwajit Shrivastava         |     4,481         |       0     |   0         |   2,350       |       0        |   +2350     | (Receives)
 | Sagar Shrivastava   |    4,481   |   0        |   0         | 19,966   |     0      | +19966 |     (Receives)
 
-*Jaya Sahay paid ₹1,950 for expenses, + 20000 extra*
+*Jaya Sahay paid ₹1,950 for expenses, + 20000 extra to Kundan Prakash*
 
 ### **Who Needs to Pay and Receive**
 - Count only amount payable
