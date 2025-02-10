@@ -86,7 +86,30 @@ bar
     "₹19,966": 19966
     "₹1,950": 1950
 ```
-
+```
+bar
+    title Total Paid by Each Member
+    x-axis
+        Bishwajit Shrivastava
+        Bhanu Prakash
+        Kundan Prakash
+        Monika Mukherjee
+        Sagar Shrivastava
+        Jaya Sahay
+    y-axis
+        ₹0
+        ₹5,000
+        ₹10,000
+        ₹15,000
+        ₹20,000
+    data
+        Bishwajit Shrivastava: 2350
+        Bhanu Prakash: 450
+        Kundan Prakash: 15310
+        Monika Mukherjee: 300
+        Sagar Shrivastava: 19966
+        Jaya Sahay: 1950
+```
 ---
 
 ## **3. Individual Share**  
