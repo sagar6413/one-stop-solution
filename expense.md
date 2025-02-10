@@ -36,8 +36,8 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 | Toto (Vindyachal)          | 110       | Bhanu Prakash (60) & Bishwajit Shrivastava(50)|
 | Return Toto (Vindyachal)   | 90        | Bhanu Prakash            |
 | Toto (Home)                | 100       | Bhanu Prakash            |
-| Gadi (Sagar)               | 16,875    | Sagar Shrivastava        |
-| Gadi (Kundan)              | 13,125    | Kundan Prakash           |
+| Gadi                | 16,875    | Sagar Shrivastava        |
+| Gadi              | 13,125    | Kundan Prakash           |
 |      **Sub-Total**                 |     **30,300**       |           |
 
 **Religious/Temple Expenses: ₹3,750**
@@ -55,14 +55,14 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 | Member               | Amount Paid (₹) |
 |----------------------|-----------------|
 | Bishwajit Shrivastava | 2,350          |
-| Bhanu Prakash         | 450 *           |
+| Bhanu Prakash         | 450           |
 | Kundan Prakash        | 15,310          |
 | Monika Mukherjee      | 300             |
 | Sagar Shrivastava     | 19,966          |
 | Jaya Sahay            | 1,950          |
 |        **Sub-total**              |       **40,326**      |       |
 
-\* *Bhanu Prakash paid ₹60 for the first Toto ride.  The other ₹50 was paid by Bishwajit, and is accounted for in Bishwajit's total.*
+
 
 ### **3. Individual Share & Responsibilities**
 
