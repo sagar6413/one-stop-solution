@@ -67,7 +67,7 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 ### **3. Individual Share & Responsibilities**
 
 *   **Total Expense:** ₹40,326
-*   **Number of People:** 9 (Jaya Sahay, Monika Mukherjee, Bhanu Prakash, Bishwajit Shrivastava, Jayshree Shrivastava, Sagar Shrivastava, Kundan Prakash, Nidhi Prakash, and *assuming Shweta Mridul. If this participant should be counted for every expense report or any other name should not be in list. Please let me know to adjust report.*)
+*   **Number of People:** 9 (Jaya Sahay, Monika Mukherjee, Bhanu Prakash, Bishwajit Shrivastava, Jayshree Shrivastava, Sagar Shrivastava, Kundan Prakash, Nidhi Prakash, and Shweta Mridul.)
 *   **Individual Share (Overall):** ₹4,481 (₹40,326 / 9)
 
 **Category-Specific Responsibilities & Shares:**
