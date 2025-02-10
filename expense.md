@@ -89,7 +89,7 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 | Shweta Mridul           | 0      |   750    |   0   | |0|0   750    | -750 | (Pays)
 | Nidhi Prakash           |       0      |       0      |    |0|0    0  |      0     |       0     | (No Action)
 | Monika Mukherjee    |   0        |   0       |  300 | 0    |0|0   |  +300|  (Receives)
-| Bishwajit Shrivastava             4,481         |       0  |   0         |   2,350       |  |0|0     0        |   +2350     | (Receives)
+| Bishwajit Shrivastava                      0  |   0         |   2,350       |  |0|0     0        |   +2350     | (Receives)
 | Sagar Shrivastava      |   0        |   0         | 19,966   |   |0|0  0      | +19966 |     (Receives)
 
 *Jaya Sahay paid ₹1,950 for expenses, + 20000 extra to Kundan Prakash*
