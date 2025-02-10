@@ -80,17 +80,17 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 ### **4. Expense Summary and Settlements**
 
 
-| Person                  | Food&Drinks/Transportation/Accomodation Due | Religious. Due | Paid      | Total Due |   Net   |
-|-------------------------|------------------|---------|----------|----------|----------|
-| Jayshree Shrivastava        | 12,192        | 750        | 0     | 12,942    |  -12,942|  (Pays)
-| Jaya Sahay                 | 12,192        | 750       | 21,950* | 12,942 | +9,008 | (Receives)
-| Kundan Prakash             | 12,192       | 750       | 15,310 |12,942  |-22368|   (Receives)
-| Bhanu Prakash              | 0          | 750      | 450        |  750      |   +300|  (Receives)
-| Shweta Mridul           | 0      |   750    |   0   |    750    | -750 | (Pays)
-| Nidhi Prakash           |       0      |       0      |        0  |      0     |       0     | (No Action)
-| Monika Mukherjee    |   0        |   0       |  300 | 0       |  +300|  (Receives)
-| Bishwajit Shrivastava             4,481         |       0     |   0         |   2,350       |       0        |   +2350     | (Receives)
-| Sagar Shrivastava      |   0        |   0         | 19,966   |     0      | +19966 |     (Receives)
+| Person                  | Food&Drinks/Transportation/Accomodation Due | Religious. Due | Paid      | Lend| Borrow|Total Due |   Net   |
+|-------------------------|------------------|---------|----------|----------|----------|----------|----------|
+| Jayshree Shrivastava        | 12,192        | 750        | 0 |0|0    | 12,942    |  -12,942|  (Pays)
+| Jaya Sahay                 | 12,192        | 750       | 1,950 |20000|0 | 12,942 | +9,008 | (Receives)
+| Kundan Prakash             | 12,192       | 750       | 15,310 |0|20000 |12,942  |-22368|   (Receives)
+| Bhanu Prakash              | 0          | 750      | 450    |0|0    |  750      |   +300|  (Receives)
+| Shweta Mridul           | 0      |   750    |   0   | |0|0   750    | -750 | (Pays)
+| Nidhi Prakash           |       0      |       0      |    |0|0    0  |      0     |       0     | (No Action)
+| Monika Mukherjee    |   0        |   0       |  300 | 0    |0|0   |  +300|  (Receives)
+| Bishwajit Shrivastava             4,481         |       0    |0|0 |   0         |   2,350       |       0        |   +2350     | (Receives)
+| Sagar Shrivastava      |   0        |   0         | 19,966   |   |0|0  0      | +19966 |     (Receives)
 
 *Jaya Sahay paid ₹1,950 for expenses, + 20000 extra to Kundan Prakash*
 
