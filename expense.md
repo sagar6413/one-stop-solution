@@ -61,12 +61,7 @@
 |        **Sub-total**              |       **40,326**      |       |
 
 
-### **3. Individual Share & Responsibilities**
-
-*   **Total Expense:** ₹40,326
-*   **Number of People:** 9 (Jaya, Monika, Bhanu, Bishwajit, Jayshree, Sagar, Kundan, Nidhi, and Shweta.)
-
-**Category-Specific Responsibilities & Shares:**
+### **3. Category-Specific Responsibilities & Shares:**
 
 *   **Food & Drinks, Transportation, Accommodation:**  Jayshree, Jaya, and Kundan are responsible.  Their individual share for these categories is (6075 + 30300 + 201) / 3 = ₹12,192 each.
 
