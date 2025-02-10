@@ -1,7 +1,5 @@
 ## Trip Expense Report
 
-Here's a detailed breakdown of the trip expenses, including category breakdowns, individual contributions, and settlement calculations.
-
 ### **1. Expenses by Category & Contributor**
 
 | Category         | Total (₹) | Items                                     | Paid By                                  | Responsible Parties                                                        |
@@ -62,7 +60,6 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 | Jaya                  | 1,950          |
 |        **Sub-total**              |       **40,326**      |       |
 
-*(Shortened names for brevity in the tables)*
 
 ### **3. Individual Share & Responsibilities**
 
