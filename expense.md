@@ -33,7 +33,7 @@ Here's a detailed breakdown of the trip expenses, including category breakdowns,
 
 | Expense                    | Amount (₹) | Paid By                  |
 |----------------------------|------------|--------------------------|
-| Toto (Vindyachal)          | 110       | Bhanu Prakash (60) & Bishwajit (50)|
+| Toto (Vindyachal)          | 110       | Bhanu Prakash (60) & Bishwajit Shrivastava(50)|
 | Return Toto (Vindyachal)   | 90        | Bhanu Prakash            |
 | Toto (Home)                | 100       | Bhanu Prakash            |
 | Gadi (Sagar)               | 16,875    | Sagar Shrivastava        |
