@@ -74,35 +74,25 @@
 
 ### **4. Expense Summary and Settlements**
 
-| Person                  | Food & Drinks/Transportation/Accommodation Due (₹) | Religious/Temple Due (₹) | Paid (₹) |  Net (₹)   | Lend | Borrowed | Action          |
-|-------------------------|-----------------|-------------|----------|-------------|-----------------|-------------|-----------------|
-| Jayshree                | 12,192          | 750         | 0        | -12,942 | 0|0     | Pays ₹12,942    |
-| Jaya                    | 12,192          | 750         | 1,950    | -10,992   | 20000|0  | Receives ₹9,008     |
-| Kundan                  | 12,192          | 750         | 15,310   | +2,368      | 0|20000| Pays ₹17,632 |
-| Bhanu                   | 0               | 750         | 450      | -300      | 0|0  | Pays ₹300        |
-| Shweta                  | 0               | 750         | 0        | -750      | 0|0  | Pays ₹750        |
-| Nidhi                   | 0               | 0           | 0        | 0         | 0|0  | No Action       |
-| Monika                  | 0               | 0           | 300      | +300      | 0|0  | Receives ₹300   |
-| Bishwajit               | 0               | 0           | 2,350    | +2,350    | 0|0  | Receives ₹2,350 |
-| Sagar                   | 0               | 0           | 19,966   | +19,966   | 0|0  | Receives ₹19,966|
-
-
-#### Jaya has lend ₹20,000 to Kundan
+| Person                  | Food & Drinks/Transportation/Accommodation Due (₹) | Religious/Temple Due (₹) | Paid (₹) | Lend | Borrowed |   Net (₹)   | Action          |
+|-------------------------|-----------------|-------------|----------|------|-------------|-------------|-----------------|
+| Jayshree                | 12,192          | 750         | 0        | 0      |0  | -12,942      | Pays ₹12,942    |
+| Jaya                    | 12,192          | 750         | 1,950    | 20000   |0    | +9008       | Receives ₹9,008     |
+| Kundan                  | 12,192          | 750         | 15,310   | 0|  20000  |-17632          | Pays ₹17,632 |
+| Bhanu                   | 0               | 750         | 450      | 0       |0   | -300      | Pays ₹300        |
+| Shweta                  | 0               | 750         | 0        | 0      |0    | -750      | Pays ₹750        |
+| Nidhi                   | 0               | 0           | 0        | 0      |0    | 0         | No Action       |
+| Monika                  | 0               | 0           | 300      | 0      |0    | +300      | Receives ₹300   |
+| Bishwajit               | 0               | 0           | 2,350    | 0      |0    | +2,350    | Receives ₹2,350 |
+| Sagar                   | 0               | 0           | 19,966   | 0      |0   | +19,966   | Receives ₹19,966|
 
 ## **Settlement Summary (Who Pays/Receives Whom):**
 
-The following settlements need to occur, considering the extra 20,000 that Jaya Lent to Kundan:
+To settle the expenses, the following transactions should occur:
 
-*   **Jayshree:** Pays ₹12,942.  She can pay this directly to Sagar.
-*   **Jaya:** Pays ₹10,992. She can pay this to Sagar.
-*   **Bhanu:** Pays ₹300. He can pay this to Monika.
-*   **Shweta:** Pays ₹750.  She can pay this to Bishwajit.
-
-*   **Sagar:** Receives a total of ₹12,942 (from Jayshree) + 10,992(From Jaya) = ₹23,934.  He has already paid ₹19,966, so the difference of 3,968 should go back to himself.
-* **Kundan** Receives ₹2,368, from Jaya.
-*  **Bishwajit:** Receives ₹750 (from Shweta) + 1,600 (from remaining Sagar) = ₹2350
-* **Monika** receives ₹300 From Bhanu
-
-*   **Jaya gave 20,000 directly to Kundan**.  After the 2,368 is given to Kundan, Jaya still needs to give the additional 17,632
-
-**Final Note:** This revised report is much clearer, easier to understand, and provides a precise breakdown of who needs to pay and receive what amounts. The "Action" column is particularly helpful for quickly summarizing the required settlements. The removal of redundant columns streamlines the information. The addition of Jaya's loan makes all clear.
+*   **Kundan Pays Sagar:** ₹17,632
+*   **Jayshree Pays Jaya:** ₹9,008
+*   **Jayshree Pays Bishwajit:** ₹2,350
+*   **Jayshree Pays Sagar:** ₹1,584
+*   **Shweta Pays Sagar:** ₹750
+*   **Bhanu Pays Monika:** ₹300
