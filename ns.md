@@ -1,4 +1,105 @@
+# Notification Service Design Document
 
+## 1. Introduction
+This document outlines the design for a robust, scalable notification service supporting multiple notification channels, user preferences, and efficient fan-out mechanisms. This portfolio project demonstrates expertise in distributed systems architecture at the 3-year experience level, focusing on scalability, reliability, and modern architectural patterns while remaining implementable by a single developer.
+
+## 2. Goals
+* **Reliability:** Ensure guaranteed notification delivery with comprehensive failure handling and smart retry mechanisms
+* **Scalability:** Handle millions of notifications and users with horizontal scaling capabilities
+* **Flexibility:** Support diverse notification types and channels with a pluggable architecture
+* **Configurability:** Provide granular user notification preference management
+* **Maintainability:** Implement a modular, well-documented design with clear service boundaries
+* **Performance:** Optimize for low-latency notification delivery while maintaining system efficiency
+
+## 3. Features
+
+### Notification Types:
+* Push Notifications (Mobile & Web)
+* SMS Notifications
+* Email Notifications
+* In-App Notifications (Persisted)
+* Webhook Notifications (Send to arbitrary URLs)
+* Chat Platform Integrations (Slack, Teams, Discord)
+
+### Notification Aggregation:
+* Intelligent grouping of related notifications to reduce user fatigue
+* Time-window based batching with configurable thresholds
+* Priority-based overrides for critical notifications
+
+### Notification Configuration:
+* Granular user preferences:
+  * Channel selection (enable/disable specific channels)
+  * Notification types (e.g., "New Comment," "Friend Request")
+  * Frequency controls (max notifications per day/hour per type)
+  * Quiet hours with timezone awareness
+  * Digest options (daily/weekly summaries instead of individual notifications)
+
+### Notification Intelligence:
+* Smart notification routing based on:
+  * User engagement patterns and historical response data
+  * Device context (mobile vs desktop)
+  * Content relevance scoring
+  * Real-time user activity status
+
+### Actionable Notifications:
+* Rich interactive elements within notifications
+* Deep linking with context preservation
+* Action confirmation and completion tracking
+* **"onClick" Handling:** Client UIs remain "dumb." Notifications include an `action_url` field that directs users to the appropriate location/action within the application
+
+## 4. System Architecture
+
+```mermaid
+flowchart TD
+    subgraph "Event Sources"
+        S1["Application Services"]
+        S2["External Systems"]
+        S3["Scheduled Jobs"]
+    end
+
+    subgraph "API Layer"
+        AG["API Gateway\n(Spring Cloud Gateway)"]
+        NS["Notification Service"]
+        PS["Preference Service"]
+        TS["Template Service"]
+    end
+
+    subgraph "Message Backbone"
+        K[("Kafka\nEvent Streaming")]
+        KC["Kafka Consumer Group"]
+        RMQ1["RabbitMQ\nTask Queuing"]
+    end
+
+    subgraph "Processing Layer"
+        FS["Fan-Out Service"]
+    end
+
+    subgraph "Priority Queuing"
+        RMQ2["RabbitMQ\nPriority Queues"]
+    end
+
+    subgraph "Delivery Layer"
+        PP["Push Publisher"]
+        EP["Email Publisher"]
+        SP["SMS Publisher"]
+        IP["In-App Publisher"]
+        WP["Webhook Publisher"]
+    end
+
+    subgraph "Storage Layer"
+        PG[("PostgreSQL\nDurable Storage")]
+        RD[("Redis\nCaching & Rate Limiting")]
+        ES[("Elasticsearch\nSearch")]
+    end
+
+    S1 & S2 & S3 --> NS
+    
+    AG --> NS & PS & TS 
+    
+    NS --> K
+    K --> KC
+    KC --> RMQ1
+    RMQ1 --> FS
     FS --> RMQ2
     RMQ2 --> PP & EP & SP & IP & WP
     
